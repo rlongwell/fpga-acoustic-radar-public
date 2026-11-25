@@ -1,0 +1,27 @@
+test_filter_and_geometry_changes_reset_confirmation (test_gui.DashboardTest.test_filter_and_geometry_changes_reset_confirmation) ... ok
+test_redraw_does_not_confirm_and_raw_is_opt_in (test_gui.DashboardTest.test_redraw_does_not_confirm_and_raw_is_opt_in) ... ok
+test_settings_survive_themes_and_restart (test_gui.DashboardTest.test_settings_survive_themes_and_restart) ... ok
+test_stale_stream_clears_marker (test_gui.DashboardTest.test_stale_stream_clears_marker) ... ok
+test_bearing_with_mic_two_silent (test_radar.RadarTest.test_bearing_with_mic_two_silent) ... ok
+test_bearings_and_silence (test_radar.RadarTest.test_bearings_and_silence) ... ok
+test_uart_frame_and_crc (test_radar.RadarTest.test_uart_frame_and_crc) ... ok
+test_clean_short_onset_can_be_seen (test_reflections.ReflectionTest.test_clean_short_onset_can_be_seen) ... ok
+test_coherent_reflection_is_an_explicit_limit (test_reflections.ReflectionTest.test_coherent_reflection_is_an_explicit_limit) ... ok
+test_confirmation_and_one_frame_direction_jump (test_reflections.ReflectionTest.test_confirmation_and_one_frame_direction_jump) ... ok
+test_direct_plus_delayed_same_source (test_reflections.ReflectionTest.test_direct_plus_delayed_same_source) ... ok
+test_duplicates_dont_confirm_and_gap_resets (test_reflections.ReflectionTest.test_duplicates_dont_confirm_and_gap_resets) ... ok
+test_equal_direct_and_echo_waveforms_are_ambiguous (test_reflections.ReflectionTest.test_equal_direct_and_echo_waveforms_are_ambiguous) ... ok
+test_fading_tail_is_suppressed_and_quieter_source_can_recover (test_reflections.ReflectionTest.test_fading_tail_is_suppressed_and_quieter_source_can_recover) ... ok
+test_flat_correlated_and_uncorrelated_noise_rejected (test_reflections.ReflectionTest.test_flat_correlated_and_uncorrelated_noise_rejected) ... ok
+test_no_marker_on_silence_or_ambiguity (test_reflections.ReflectionTest.test_no_marker_on_silence_or_ambiguity) ... ok
+test_pair_outliers_do_not_steer_majority (test_reflections.ReflectionTest.test_pair_outliers_do_not_steer_majority) ... ok
+test_restart_or_source_change_resets (test_reflections.ReflectionTest.test_restart_or_source_change_resets) ... ok
+test_small_array_silent_mic_two (test_reflections.ReflectionTest.test_small_array_silent_mic_two) ... ok
+test_sustained_new_direction_is_acquired (test_reflections.ReflectionTest.test_sustained_new_direction_is_acquired) ... ok
+test_two_equal_competing_directions_rejected (test_reflections.ReflectionTest.test_two_equal_competing_directions_rejected) ... ok
+test_wraparound_smoothing (test_reflections.ReflectionTest.test_wraparound_smoothing) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 2.239s
+
+OK

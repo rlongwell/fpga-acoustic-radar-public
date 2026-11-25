@@ -1,0 +1,21 @@
+{
+  "expected_degrees": 90,
+  "source_position": "User reports phone music right of MIC3 and MIC6",
+  "selected_windows": 27,
+  "selection": "Median nonzero channel energy > 20,000,000",
+  "mapping_status": "Hypothesis awaiting physical SD-wire confirmation",
+  "variants": [
+    {
+      "swap_mic4_mic5": false,
+      "accepted": 19,
+      "median_angular_error": 109,
+      "median_angle": 243
+    },
+    {
+      "swap_mic4_mic5": true,
+      "accepted": 22,
+      "median_angular_error": 0,
+      "median_angle": 90
+    }
+  ]
+}

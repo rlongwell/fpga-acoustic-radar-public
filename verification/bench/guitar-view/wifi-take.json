@@ -1,0 +1,34 @@
+{
+  "audio_frames_per_mic": 691200,
+  "rate": 48000,
+  "bits": 24,
+  "duration_seconds": 14.4,
+  "channels": 6,
+  "radar_windows": 164,
+  "window_sequence_steps": {
+    "1": 160,
+    "2": 3
+  },
+  "first_radar_seconds": 0.0699375,
+  "last_radar_seconds": 14.235270833333333,
+  "max_fpga_drops": 0,
+  "peak_per_channel": [
+    309482,
+    409544,
+    394219,
+    285675,
+    327581,
+    8388608
+  ],
+  "minimum_per_channel": [
+    -309482,
+    -409544,
+    -394219,
+    -285675,
+    -327581,
+    -8388608
+  ],
+  "mono_matches_m1": true,
+  "distinct_channels": true,
+  "recording_error": ""
+}

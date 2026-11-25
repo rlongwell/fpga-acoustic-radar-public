@@ -1,0 +1,51 @@
+test_default_mapping_still_recovers_normal_leads (test_channel_mapping.ChannelMappingTest.test_default_mapping_still_recovers_normal_leads) ... ok
+test_swapped_leads_recover_different_source_directions (test_channel_mapping.ChannelMappingTest.test_swapped_leads_recover_different_source_directions) ... ok
+test_falling_volume_alone_does_not_hide_gentle_source (test_gentle.GentleTest.test_falling_volume_alone_does_not_hide_gentle_source) ... ok
+test_flat_field_and_silence_still_have_no_direction (test_gentle.GentleTest.test_flat_field_and_silence_still_have_no_direction) ... ok
+test_hum_is_visible_and_plateau_is_centered (test_gentle.GentleTest.test_hum_is_visible_and_plateau_is_centered) ... ok
+test_hum_with_mic_two_silent (test_gentle.GentleTest.test_hum_with_mic_two_silent) ... ok
+test_marginal_opposite_peak_does_not_steal_track (test_gentle.GentleTest.test_marginal_opposite_peak_does_not_steal_track) ... ok
+test_real_opposite_move_reacquires_after_four_frames (test_gentle.GentleTest.test_real_opposite_move_reacquires_after_four_frames) ... ok
+test_filter_and_geometry_changes_reset_confirmation (test_gui.DashboardTest.test_filter_and_geometry_changes_reset_confirmation) ... ok
+test_gate_can_be_disabled_and_slider_uses_keyboard (test_gui.DashboardTest.test_gate_can_be_disabled_and_slider_uses_keyboard) ... ok
+test_gate_closure_resets_reflection_confirmation (test_gui.DashboardTest.test_gate_closure_resets_reflection_confirmation) ... ok
+test_gate_hides_both_responses_but_keeps_meters_live (test_gui.DashboardTest.test_gate_hides_both_responses_but_keeps_meters_live) ... ok
+test_gate_opens_at_threshold_and_closes_below (test_gui.DashboardTest.test_gate_opens_at_threshold_and_closes_below) ... ok
+test_invalid_saved_gate_threshold_has_safe_default (test_gui.DashboardTest.test_invalid_saved_gate_threshold_has_safe_default) ... ok
+test_old_rectangle_settings_open_current_hex_without_inheriting_calibration (test_gui.DashboardTest.test_old_rectangle_settings_open_current_hex_without_inheriting_calibration) ... ok
+test_redraw_does_not_confirm_and_raw_is_opt_in (test_gui.DashboardTest.test_redraw_does_not_confirm_and_raw_is_opt_in) ... ok
+test_settings_survive_themes_and_restart (test_gui.DashboardTest.test_settings_survive_themes_and_restart) ... ok
+test_silent_mic_does_not_lower_gate_level (test_gui.DashboardTest.test_silent_mic_does_not_lower_gate_level) ... ok
+test_stale_stream_clears_marker (test_gui.DashboardTest.test_stale_stream_clears_marker) ... ok
+test_two_live_channels_cannot_display_a_hex_bearing_at_either_gate_setting (test_gui.DashboardTest.test_two_live_channels_cannot_display_a_hex_bearing_at_either_gate_setting) ... ok
+test_bearings_from_independent_arrival_times (test_hexagon.HexagonTest.test_bearings_from_independent_arrival_times) ... ok
+test_physical_grid_and_lag_sign (test_hexagon.HexagonTest.test_physical_grid_and_lag_sign) ... ok
+test_temperature_and_coordinate_calibration (test_hexagon.HexagonTest.test_temperature_and_coordinate_calibration) ... ok
+test_bearing_with_mic_two_silent (test_radar.RadarTest.test_bearing_with_mic_two_silent) ... ok
+test_bearings_and_silence (test_radar.RadarTest.test_bearings_and_silence) ... ok
+test_uart_frame_and_crc (test_radar.RadarTest.test_uart_frame_and_crc) ... ok
+test_clean_short_onset_can_be_seen (test_reflections.ReflectionTest.test_clean_short_onset_can_be_seen) ... ok
+test_coherent_reflection_is_an_explicit_limit (test_reflections.ReflectionTest.test_coherent_reflection_is_an_explicit_limit) ... ok
+test_confirmation_and_one_frame_direction_jump (test_reflections.ReflectionTest.test_confirmation_and_one_frame_direction_jump) ... ok
+test_direct_plus_delayed_same_source (test_reflections.ReflectionTest.test_direct_plus_delayed_same_source) ... ok
+test_duplicates_dont_confirm_and_gap_resets (test_reflections.ReflectionTest.test_duplicates_dont_confirm_and_gap_resets) ... ok
+test_equal_direct_and_echo_waveforms_are_ambiguous (test_reflections.ReflectionTest.test_equal_direct_and_echo_waveforms_are_ambiguous) ... ok
+test_fading_tail_is_suppressed_and_quieter_source_can_recover (test_reflections.ReflectionTest.test_fading_tail_is_suppressed_and_quieter_source_can_recover) ... ok
+test_flat_correlated_and_uncorrelated_noise_rejected (test_reflections.ReflectionTest.test_flat_correlated_and_uncorrelated_noise_rejected) ... ok
+test_no_marker_on_silence_or_ambiguity (test_reflections.ReflectionTest.test_no_marker_on_silence_or_ambiguity) ... ok
+test_pair_outliers_do_not_steer_majority (test_reflections.ReflectionTest.test_pair_outliers_do_not_steer_majority) ... ok
+test_restart_or_source_change_resets (test_reflections.ReflectionTest.test_restart_or_source_change_resets) ... ok
+test_small_array_silent_mic_two (test_reflections.ReflectionTest.test_small_array_silent_mic_two) ... ok
+test_sustained_new_direction_is_acquired (test_reflections.ReflectionTest.test_sustained_new_direction_is_acquired) ... ok
+test_two_equal_competing_directions_rejected (test_reflections.ReflectionTest.test_two_equal_competing_directions_rejected) ... ok
+test_wraparound_smoothing (test_reflections.ReflectionTest.test_wraparound_smoothing) ... ok
+
+----------------------------------------------------------------------
+Ran 41 tests in 3.632s
+
+OK
+make: Entering directory '/home/rl/workspace/zybo-z7-20-inmp441-je/build/sim'
+make: Nothing to be done for 'default'.
+make: Leaving directory '/home/rl/workspace/zybo-z7-20-inmp441-je/build/sim'
+PASS: six I2S words, SCK/WS timing, all 15 correlation peaks, alternating snapshot banks
+- tests/tb_acoustic_radar.sv:65: Verilog $finish

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="269" viewBox="0 0 860 269" role="img" aria-labelledby="title desc">
+  <title id="title">One measured delay profile from the board self-test</title>
+  <desc id="desc">Correlation scores from board-self-test.log for FPGA inputs 3 and 4. The full profile spans minus 32 to plus 32 samples. It peaks at 127 when input 4 is four samples later than input 3.</desc>
+  <rect x=".5" y=".5" width="859" height="268" rx="12" fill="#14232c" stroke="#3b505a"/>
+  <g font-family="system-ui, sans-serif">
+    <text x="25" y="35" font-size="21" font-weight="650" fill="#f4f7f6">One pair in the FPGA self-test</text>
+    <text x="25" y="60" font-size="16" fill="#c9d8db">FPGA inputs 3 and 4 · correlation score</text>
+    <g fill="none" stroke="#3e555f">
+      <path d="M80 85.75H784 M80 133H784 M80 205H784" stroke-dasharray="4 5"/>
+      <path d="M80 81V205 M256 81V205 M432 81V205 M608 81V205 M784 81V205" stroke-dasharray="4 5"/>
+      <path d="M80 181H784" stroke="#8aa1ab"/>
+    </g>
+    <g font-size="15" text-anchor="end" fill="#c9d8db">
+      <text x="69" y="91">127</text><text x="69" y="138">64</text>
+      <text x="69" y="186">0</text><text x="69" y="210">−32</text>
+    </g>
+    <polyline id="scores" fill="none" stroke="#78dbba" stroke-width="2.8" stroke-linejoin="round" points="
+      80,183.25 91,181 102,182.5 113,180.25 124,182.5 135,178 146,182.5 157,181 168,181
+      179,179.5 190,181.75 201,181.75 212,181 223,182.5 234,181.75 245,179.5 256,181.75 267,178.75
+      278,180.25 289,182.5 300,182.5 311,182.5 322,179.5 333,179.5 344,181.75 355,181.75 366,179.5
+      377,180.25 388,181 399,183.25 410,180.25 421,184.75 432,184 443,186.25 454,195.25 465,202.75
+      476,85.75 487,202.75 498,195.25 509,186.25 520,184 531,184.75 542,180.25 553,183.25 564,181
+      575,180.25 586,179.5 597,181.75 608,181.75 619,179.5 630,179.5 641,182.5 652,182.5 663,182.5
+      674,180.25 685,178.75 696,181.75 707,179.5 718,181.75 729,181.75 740,181 751,181.75 762,181.75
+      773,179.5 784,181
+    "/>
+    <circle cx="476" cy="85.75" r="5.5" fill="#ffcb88" stroke="#14232c" stroke-width="2"/>
+    <path d="M484 85.75H504" fill="none" stroke="#ffcb88" stroke-width="1.8"/>
+    <text x="514" y="91" font-size="17" font-weight="650" fill="#ffcb88">Peak at +4 samples</text>
+    <g text-anchor="middle" fill="#c9d8db" font-size="16">
+      <text x="80" y="229">−32</text><text x="256" y="229">−16</text>
+      <text x="432" y="229">0</text><text x="608" y="229">+16</text><text x="784" y="229">+32</text>
+      <text x="432" y="254" fill="#f4f7f6">Delay of input 4 relative to input 3 (samples)</text>
+    </g>
+  </g>
+</svg>

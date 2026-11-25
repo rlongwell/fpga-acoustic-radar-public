@@ -1,0 +1,8 @@
+.venv/
+.settings/
+.bootstrap.lock
+build/
+__pycache__/
+*.pyc
+.Xil/
+/tmp/pdfs/

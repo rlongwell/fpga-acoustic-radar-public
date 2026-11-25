@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1000" viewBox="0 0 1560 1000" role="img"><title>Pmod JE mating face</title><desc>Face the holes on the Zybo socket with the component side up and the PCB below the connector, as shown.</desc>
+<rect x="0" y="0" width="1560" height="1000" rx="0" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="1560" height="143" rx="0" fill="#142638" stroke="none" stroke-width="1"/>
+<text x="48" y="38" font-family="DejaVu Sans" font-size="16" font-weight="750" fill="#80d7ce" text-anchor="start">ZYBO Z7-20   /   PMOD JE   /   INMP441</text>
+<text x="48" y="94" font-family="DejaVu Sans" font-size="44" font-weight="750" fill="#ffffff" text-anchor="start">Pmod JE mating face</text>
+<text x="50" y="124" font-family="DejaVu Sans" font-size="17" font-weight="500" fill="#d5e4ed" text-anchor="start">Face the holes on the Zybo socket with the component side up and the PCB below the connector, as shown.</text>
+<text x="1510" y="50" font-family="DejaVu Sans Mono" font-size="18" font-weight="750" fill="#a8bccc" text-anchor="end">02 / SOCKET</text>
+<rect x="48" y="175" width="1464" height="520" rx="15" fill="#ffffff" stroke="#d9e3e9" stroke-width="1.6"/>
+<text x="79" y="217" font-family="DejaVu Sans" font-size="15" font-weight="750" fill="#006d68" text-anchor="start">VIEW FROM OUTSIDE THE BOARD  /  LOOK STRAIGHT INTO THE FEMALE SOCKET</text>
+<text x="79" y="248" font-family="DejaVu Sans" font-size="21" font-weight="650" fill="#142638" text-anchor="start">Pin 1 is the upper-right socket. The power pair is at the opposite end.</text>
+<rect x="81" y="291" width="1398" height="306" rx="24" fill="#182735" stroke="#293f52" stroke-width="2"/>
+<g data-kind="je-socket" data-je-pin="6" data-net="+3V3" data-package="" data-row="1" data-column="1">
+<rect x="111" y="322" width="203" height="111" rx="12" fill="#283a4a" stroke="#5f7481" stroke-width="1"/>
+<circle cx="140" cy="352" r="16" fill="#c62832" stroke="#889aa7" stroke-width="1.5"/>
+<text x="140" y="357" font-family="DejaVu Sans Mono" font-size="13" font-weight="750" fill="#ffffff" text-anchor="middle">6</text>
+<text x="166" y="358" font-family="DejaVu Sans Mono" font-size="19" font-weight="750" fill="#ffffff" text-anchor="start">+3V3</text>
+<text x="129" y="392" font-family="DejaVu Sans Mono" font-size="16" font-weight="650" fill="#dde6ec" text-anchor="start">3.3 V DC</text>
+<text x="129" y="416" font-family="DejaVu Sans" font-size="13" font-weight="750" fill="#b0c6d4" text-anchor="start">POWER OUT</text>
+</g>
+<g data-kind="je-socket" data-je-pin="5" data-net="GND" data-package="" data-row="1" data-column="2">
+<rect x="338" y="322" width="203" height="111" rx="12" fill="#283a4a" stroke="#5f7481" stroke-width="1"/>
+<circle cx="367" cy="352" r="16" fill="#11161d" stroke="#889aa7" stroke-width="1.5"/>
+<text x="367" y="357" font-family="DejaVu Sans Mono" font-size="13" font-weight="750" fill="#ffffff" text-anchor="middle">5</text>
+<text x="393" y="358" font-family="DejaVu Sans Mono" font-size="19" font-weight="750" fill="#ffffff" text-anchor="start">GND</text>
+<text x="356" y="392" font-family="DejaVu Sans Mono" font-size="16" font-weight="650" fill="#dde6ec" text-anchor="start">0 V</text>
+<text x="356" y="416" font-family="DejaVu Sans" font-size="13" font-weight="750" fill="#b0c6d4" text-anchor="start">RETURN</text>
+</g>
+<g data-kind="je-socket" data-je-pin="4" data-net="MIC2_SD" data-package="H15" data-row="1" data-column="3">
+<rect x="565" y="322" width="203" height="111" rx="12" fill="#283a4a" stroke="#5f7481" stroke-width="1"/>
+<circle cx="594" cy="352" r="16" fill="#ec791a" stroke="#889aa7" stroke-width="1.5"/>
+<text x="594" y="357" font-family="DejaVu Sans Mono" font-size="13" font-weight="750" fill="#142638" text-anchor="middle">4</text>
+<text x="620" y="358" font-family="DejaVu Sans Mono" font-size="19" font-weight="750" fill="#ffffff" text-anchor="start">MIC2_SD</text>
+<text x="583" y="392" font-family="DejaVu Sans Mono" font-size="16" font-weight="650" fill="#dde6ec" text-anchor="start">H15</text>
+<text x="583" y="416" font-family="DejaVu Sans" font-size="13" font-weight="750" fill="#b0c6d4" text-anchor="start">FPGA IN</text>
+</g>
+<g data-kind="je-socket" data-je-pin="3" data-net="MIC1_SD" data-package="J15" data-row="1" data-column="4">
+<rect x="792" y="322" width="203" height="111" rx="12" fill="#283a4a" stroke="#5f7481" stroke-width="1"/>
+<circle cx="821" cy="352" r="16" fill="#e5b605" stroke="#889aa7" stroke-width="1.5"/>
+<text x="821" y="357" font-family="DejaVu Sans Mono" font-size="13" font-weight="750" fill="#142638" text-anchor="middle">3</text>
+<text x="847" y="358" font-family="DejaVu Sans Mono" font-size="19" font-weight="750" fill="#ffffff" text-anchor="start">MIC1_SD</text>
+<text x="810" y="392" font-family="DejaVu Sans Mono" font-size="16" font-weight="650" fill="#dde6ec" text-anchor="start">J15</text>
+<text x="810" y="416" font-family="DejaVu Sans" font-size="13" font-weight="750" fill="#b0c6d4" text-anchor="start">FPGA IN</text>
+</g>
+<g data-kind="je-socket" data-je-pin="2" data-net="I2S_WS" data-package="W16" data-row="1" data-column="5">
+<rect x="1019" y="322" width="203" height="111" rx="12" fill="#283a4a" stroke="#5f7481" stroke-width="1"/>
+<circle cx="1048" cy="352" r="16" fill="#167338" stroke="#889aa7" stroke-width="1.5"/>
+<text x="1048" y="357" font-family="DejaVu Sans Mono" font-size="13" font-weight="750" fill="#ffffff" text-anchor="middle">2</text>
+<text x="1074" y="358" font-family="DejaVu Sans Mono" font-size="19" font-weight="750" fill="#ffffff" text-anchor="start">I2S_WS</text>
+<text x="1037" y="392" font-family="DejaVu Sans Mono" font-size="16" font-weight="650" fill="#dde6ec" text-anchor="start">W16</text>
+<text x="1037" y="416" font-family="DejaVu Sans" font-size="13" font-weight="750" fill="#b0c6d4" text-anchor="start">FPGA OUT</text>
+</g>
+<g data-kind="je-socket" data-je-pin="1" data-net="I2S_SCK" data-package="V12" data-row="1" data-column="6">
+<rect x="1246" y="322" width="203" height="111" rx="12" fill="#283a4a" stroke="#ffd76a" stroke-width="2.5"/>
+<circle cx="1275" cy="352" r="16" fill="#165aca" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1275" y="357" font-family="DejaVu Sans Mono" font-size="13" font-weight="750" fill="#ffffff" text-anchor="middle">1</text>
+<text x="1301" y="358" font-family="DejaVu Sans Mono" font-size="19" font-weight="750" fill="#ffffff" text-anchor="start">I2S_SCK</text>
+<text x="1264" y="392" font-family="DejaVu Sans Mono" font-size="16" font-weight="650" fill="#dde6ec" text-anchor="start">V12</text>
+<text x="1264" y="416" font-family="DejaVu Sans" font-size="13" font-weight="750" fill="#b0c6d4" text-anchor="start">FPGA OUT</text>
+</g>
+<g data-kind="je-socket" data-je-pin="12" data-net="+3V3" data-package="" data-row="2" data-column="1">
+<rect x="111" y="452" width="203" height="111" rx="12" fill="#283a4a" stroke="#5f7481" stroke-width="1"/>
+<circle cx="140" cy="482" r="16" fill="#c62832" stroke="#889aa7" stroke-width="1.5"/>
+<text x="140" y="487" font-family="DejaVu Sans Mono" font-size="13" font-weight="750" fill="#ffffff" text-anchor="middle">12</text>
+<text x="166" y="488" font-family="DejaVu Sans Mono" font-size="19" font-weight="750" fill="#ffffff" text-anchor="start">+3V3</text>
+<text x="129" y="522" font-family="DejaVu Sans Mono" font-size="16" font-weight="650" fill="#dde6ec" text-anchor="start">3.3 V DC</text>
+<text x="129" y="546" font-family="DejaVu Sans" font-size="13" font-weight="750" fill="#b0c6d4" text-anchor="start">POWER OUT</text>
+</g>
+<g data-kind="je-socket" data-je-pin="11" data-net="GND" data-package="" data-row="2" data-column="2">
+<rect x="338" y="452" width="203" height="111" rx="12" fill="#283a4a" stroke="#5f7481" stroke-width="1"/>
+<circle cx="367" cy="482" r="16" fill="#11161d" stroke="#889aa7" stroke-width="1.5"/>
+<text x="367" y="487" font-family="DejaVu Sans Mono" font-size="13" font-weight="750" fill="#ffffff" text-anchor="middle">11</text>
+<text x="393" y="488" font-family="DejaVu Sans Mono" font-size="19" font-weight="750" fill="#ffffff" text-anchor="start">GND</text>
+<text x="356" y="522" font-family="DejaVu Sans Mono" font-size="16" font-weight="650" fill="#dde6ec" text-anchor="start">0 V</text>
+<text x="356" y="546" font-family="DejaVu Sans" font-size="13" font-weight="750" fill="#b0c6d4" text-anchor="start">RETURN</text>
+</g>
+<g data-kind="je-socket" data-je-pin="10" data-net="NC" data-package="Y17" data-row="2" data-column="3">
+<rect x="565" y="452" width="203" height="111" rx="12" fill="#283a4a" stroke="#5f7481" stroke-width="1"/>
+<circle cx="594" cy="482" r="16" fill="#8e9aaa" stroke="#889aa7" stroke-width="1.5"/>
+<text x="594" y="487" font-family="DejaVu Sans Mono" font-size="13" font-weight="750" fill="#142638" text-anchor="middle">10</text>
+<text x="620" y="488" font-family="DejaVu Sans Mono" font-size="19" font-weight="750" fill="#ffffff" text-anchor="start">NC</text>
+<text x="583" y="522" font-family="DejaVu Sans Mono" font-size="16" font-weight="650" fill="#dde6ec" text-anchor="start">Y17</text>
+<text x="583" y="546" font-family="DejaVu Sans" font-size="13" font-weight="750" fill="#b0c6d4" text-anchor="start">LEAVE OPEN</text>
+</g>
+<g data-kind="je-socket" data-je-pin="9" data-net="NC" data-package="T17" data-row="2" data-column="4">
+<rect x="792" y="452" width="203" height="111" rx="12" fill="#283a4a" stroke="#5f7481" stroke-width="1"/>
+<circle cx="821" cy="482" r="16" fill="#8e9aaa" stroke="#889aa7" stroke-width="1.5"/>
+<text x="821" y="487" font-family="DejaVu Sans Mono" font-size="13" font-weight="750" fill="#142638" text-anchor="middle">9</text>
+<text x="847" y="488" font-family="DejaVu Sans Mono" font-size="19" font-weight="750" fill="#ffffff" text-anchor="start">NC</text>
+<text x="810" y="522" font-family="DejaVu Sans Mono" font-size="16" font-weight="650" fill="#dde6ec" text-anchor="start">T17</text>
+<text x="810" y="546" font-family="DejaVu Sans" font-size="13" font-weight="750" fill="#b0c6d4" text-anchor="start">LEAVE OPEN</text>
+</g>
+<g data-kind="je-socket" data-je-pin="8" data-net="MIC4_SD" data-package="U17" data-row="2" data-column="5">
+<rect x="1019" y="452" width="203" height="111" rx="12" fill="#283a4a" stroke="#5f7481" stroke-width="1"/>
+<circle cx="1048" cy="482" r="16" fill="#008887" stroke="#889aa7" stroke-width="1.5"/>
+<text x="1048" y="487" font-family="DejaVu Sans Mono" font-size="13" font-weight="750" fill="#ffffff" text-anchor="middle">8</text>
+<text x="1074" y="488" font-family="DejaVu Sans Mono" font-size="19" font-weight="750" fill="#ffffff" text-anchor="start">MIC4_SD</text>
+<text x="1037" y="522" font-family="DejaVu Sans Mono" font-size="16" font-weight="650" fill="#dde6ec" text-anchor="start">U17</text>
+<text x="1037" y="546" font-family="DejaVu Sans" font-size="13" font-weight="750" fill="#b0c6d4" text-anchor="start">OPTIONAL IN</text>
+</g>
+<g data-kind="je-socket" data-je-pin="7" data-net="MIC3_SD" data-package="V13" data-row="2" data-column="6">
+<rect x="1246" y="452" width="203" height="111" rx="12" fill="#283a4a" stroke="#5f7481" stroke-width="1"/>
+<circle cx="1275" cy="482" r="16" fill="#873bc6" stroke="#889aa7" stroke-width="1.5"/>
+<text x="1275" y="487" font-family="DejaVu Sans Mono" font-size="13" font-weight="750" fill="#ffffff" text-anchor="middle">7</text>
+<text x="1301" y="488" font-family="DejaVu Sans Mono" font-size="19" font-weight="750" fill="#ffffff" text-anchor="start">MIC3_SD</text>
+<text x="1264" y="522" font-family="DejaVu Sans Mono" font-size="16" font-weight="650" fill="#dde6ec" text-anchor="start">V13</text>
+<text x="1264" y="546" font-family="DejaVu Sans" font-size="13" font-weight="750" fill="#b0c6d4" text-anchor="start">FPGA IN</text>
+</g>
+<path d="M 1412 270 L 1424 270 L 1418 282 Z" stroke="#d09200" stroke-width="1" fill="#e3ae13" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1403" y="273" font-family="DejaVu Sans" font-size="15" font-weight="750" fill="#8b5d00" text-anchor="end">PIN 1 END</text>
+<rect x="75" y="610" width="1410" height="21" rx="5" fill="#2b7772" stroke="none" stroke-width="1"/>
+<text x="780" y="663" font-family="DejaVu Sans" font-size="17" font-weight="750" fill="#006d68" text-anchor="middle">ZYBO PCB EDGE  •  lower row is closest to the PCB</text>
+<rect x="48" y="724" width="1464" height="191" rx="15" fill="#ffffff" stroke="#d9e3e9" stroke-width="1.6"/>
+<text x="79" y="764" font-family="DejaVu Sans" font-size="15" font-weight="750" fill="#006d68" text-anchor="start">BOARD ORIENTATION CHECK</text>
+<text x="79" y="799" font-family="DejaVu Sans" font-size="21" font-weight="650" fill="#142638" text-anchor="start">With the switches nearest you, JE is the leftmost Pmod along the switch-side edge.</text>
+<text x="79" y="835" font-family="DejaVu Sans" font-size="19" font-weight="500" fill="#4b6174" text-anchor="start">Use the PCB’s JE and 3V3/GND markings to confirm the end; don’t mirror this view onto the back of a mating plug.</text>
+<text x="79" y="871" font-family="DejaVu Sans" font-size="19" font-weight="500" fill="#4b6174" text-anchor="start">JE5 and JE11 are common ground. JE6 and JE12 are the same 3.3 V rail. Leave JE9 and JE10 open.</text>
+<line x1="48" y1="946" x2="1512" y2="946" stroke="#d9e3e9" stroke-width="1.5" stroke-linecap="round" />
+<text x="48" y="975" font-family="DejaVu Sans" font-size="15" font-weight="500" fill="#4b6174" text-anchor="start">Source: Digilent Zybo Z7 reference manual, Figure 16.1 and Table 16.1; master XDC, JE section.</text>
+<text x="1512" y="975" font-family="DejaVu Sans Mono" font-size="15" font-weight="750" fill="#006d68" text-anchor="end">DESIGN 1.0  /  3.3 V ONLY</text>
+</svg>

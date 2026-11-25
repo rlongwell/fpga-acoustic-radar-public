@@ -1,0 +1,148 @@
+{
+  "mode": "gentle",
+  "column_mm": 36.0,
+  "row_mm": 55.0,
+  "measured": false,
+  "frames": [
+    {
+      "sequence": 1,
+      "dropped": 0,
+      "energy": [
+        14058323,
+        0,
+        14841586,
+        26528788,
+        19685717,
+        8410705
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal"
+    },
+    {
+      "sequence": 3,
+      "dropped": 0,
+      "energy": [
+        51265935,
+        0,
+        24227496,
+        41082850,
+        27867494,
+        21065509
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal"
+    },
+    {
+      "sequence": 5,
+      "dropped": 0,
+      "energy": [
+        22106674,
+        0,
+        17848589,
+        20257565,
+        11196212,
+        13901665
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal"
+    },
+    {
+      "sequence": 8,
+      "dropped": 0,
+      "energy": [
+        7553421,
+        0,
+        11221830,
+        9056679,
+        5861405,
+        9520879
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal"
+    },
+    {
+      "sequence": 10,
+      "dropped": 0,
+      "energy": [
+        16490356,
+        0,
+        7891534,
+        6587590,
+        4533141,
+        7926193
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal"
+    },
+    {
+      "sequence": 12,
+      "dropped": 0,
+      "energy": [
+        10344271,
+        0,
+        8932298,
+        10367025,
+        8396496,
+        9990033
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal"
+    },
+    {
+      "sequence": 15,
+      "dropped": 0,
+      "energy": [
+        5523061,
+        0,
+        5974035,
+        5543011,
+        5062365,
+        5787980
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal"
+    },
+    {
+      "sequence": 17,
+      "dropped": 0,
+      "energy": [
+        5644884,
+        0,
+        5813922,
+        5012059,
+        5109371,
+        5213140
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal"
+    },
+    {
+      "sequence": 19,
+      "dropped": 0,
+      "energy": [
+        4859899,
+        0,
+        5049016,
+        4410066,
+        4757474,
+        5061618
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal"
+    },
+    {
+      "sequence": 22,
+      "dropped": 0,
+      "energy": [
+        4176200,
+        0,
+        5154229,
+        4028210,
+        4346188,
+        4887046
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "windows": 50,
+  "sequence": [
+    1,
+    117
+  ],
+  "fpga_drops_max": 0,
+  "median_energies": [
+    11227414.0,
+    141873324.5,
+    147720205.0,
+    40824632.0,
+    148785363.0,
+    0.0
+  ],
+  "active_windows": [
+    50,
+    50,
+    50,
+    50,
+    50,
+    1
+  ],
+  "nonzero_windows": [
+    50,
+    50,
+    50,
+    50,
+    50,
+    1
+  ],
+  "array_db_min_med_max": [
+    -14.1,
+    -9.2,
+    -2.9
+  ],
+  "gate_db": -17,
+  "gate_open": 50,
+  "visible_bearings": {
+    "n": 24,
+    "circular_mean": 309.5,
+    "resultant": 0.99,
+    "within_30": 0,
+    "within_45": 23,
+    "median_absolute_error": 39.0,
+    "octants": {
+      "315": 23,
+      "0": 1
+    }
+  },
+  "ungated_bearings": {
+    "n": 24,
+    "circular_mean": 309.5,
+    "resultant": 0.99,
+    "within_30": 0,
+    "within_45": 23,
+    "median_absolute_error": 39.0,
+    "octants": {
+      "315": 23,
+      "0": 1
+    }
+  },
+  "reject_reasons": {
+    "Weak directional signal": 24,
+    "Competing or broad directions": 2
+  },
+  "pred_270_vs_mean_peak_samples": {
+    "1-2": [
+      0.0,
+      5
+    ],
+    "1-3": [
+      -5.3,
+      0
+    ],
+    "1-4": [
+      -10.7,
+      -13
+    ],
+    "1-5": [
+      -10.7,
+      0
+    ],
+    "1-6": [
+      -5.3,
+      -6
+    ],
+    "2-3": [
+      -5.3,
+      -5
+    ],
+    "2-4": [
+      -10.7,
+      -4
+    ],
+    "2-5": [
+      -10.7,
+      -4
+    ],
+    "2-6": [
+      -5.3,
+      0
+    ],
+    "3-4": [
+      -5.3,
+      1
+    ],
+    "3-5": [
+      -5.3,
+      1
+    ],
+    "3-6": [
+      -0.0,
+      0
+    ],
+    "4-5": [
+      -0.0,
+      0
+    ],
+    "4-6": [
+      5.3,
+      0
+    ],
+    "5-6": [
+      5.3,
+      0
+    ]
+  }
+}

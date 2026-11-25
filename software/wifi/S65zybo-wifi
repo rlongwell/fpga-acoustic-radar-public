@@ -1,0 +1,26 @@
+#!/bin/sh
+pid=/run/zybo-wifi.pid
+case "${1:-}" in
+    start)
+        # The original kernel remains a recovery option.
+        [ -d /sys/bus/usb/drivers/mt76x0u ] || exit 0
+        if start-stop-daemon -K -t -q -p "$pid" >/dev/null 2>&1; then exit 0; fi
+        umask 077
+        : > /var/log/zybo-wifi.log
+        start-stop-daemon -S -q -b -m -p "$pid" -x /bin/sh -- \
+            -c 'exec /opt/zybo/wifi/connect-loop >>/var/log/zybo-wifi.log 2>&1'
+        ;;
+    stop)
+        if start-stop-daemon -K -q -p "$pid"; then
+            i=0
+            while start-stop-daemon -K -t -q -p "$pid" >/dev/null 2>&1; do
+                [ "$i" -lt 12 ] || exit 1
+                i=$((i+1))
+                sleep 1
+            done
+        fi
+        rm -f "$pid"
+        ;;
+    restart) "$0" stop && "$0" start ;;
+    *) echo 'Usage: S65zybo-wifi start|stop|restart' >&2; exit 2 ;;
+esac

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="292" viewBox="0 0 880 292" role="img" aria-labelledby="title desc">
+  <title id="title">One sound reaches the six microphones at different times</title>
+  <desc id="desc">Top view of the hexagon. A sound traveling left reaches microphone M3 on the right before M6 on the left. Two schematic pulses show the arrival-time difference.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 8 4 0 8Z" fill="#a5bbc5"/>
+    </marker>
+    <path id="pulse" d="m0 0 5 -2 4 6 5 -24 5 35 6 -20 4 9 6 -4" fill="none" stroke-width="3" stroke-linejoin="round"/>
+  </defs>
+  <rect x="0.5" y="0.5" width="879" height="291" rx="12" fill="#14232c" stroke="#3b505a"/>
+  <path d="M408 22v248" stroke="#3b505a"/>
+  <g font-family="system-ui, sans-serif" fill="#f4f7f6" font-size="17">
+    <g font-size="22" font-weight="650">
+      <text x="27" y="39">Microphone array</text>
+      <text x="435" y="39">The same sound at two microphones</text>
+    </g>
+    <g fill="none" stroke="#77939d" stroke-width="2">
+      <path d="m155 84 87 0 44 73 -44 73h-87l-44 -73Z"/>
+      <path d="M120 157h155" stroke-dasharray="4 6"/>
+    </g>
+    <g fill="#a5bbc5">
+      <circle cx="155" cy="84" r="6"/><circle cx="242" cy="84" r="6"/>
+      <circle cx="242" cy="230" r="6"/><circle cx="155" cy="230" r="6"/>
+    </g>
+    <circle cx="286" cy="157" r="9" fill="#78dbba"/><circle cx="111" cy="157" r="9" fill="#ffcb88"/>
+    <g text-anchor="middle">
+      <text x="155" y="72">M1</text><text x="242" y="72">M2</text>
+      <text x="242" y="257">M4</text><text x="155" y="257">M5</text>
+      <text x="286" y="139" fill="#78dbba">M3</text><text x="111" y="139" fill="#ffcb88">M6</text>
+    </g>
+    <path d="M384 157h-81" stroke="#a5bbc5" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <text x="346" y="184" text-anchor="middle" fill="#c9d8db" font-size="15">Incoming</text>
+    <text x="346" y="203" text-anchor="middle" fill="#c9d8db" font-size="15">sound</text>
+    <text x="435" y="105" fill="#78dbba" font-weight="650">M3</text>
+    <text x="435" y="170" fill="#ffcb88" font-weight="650">M6</text>
+    <g fill="none" stroke-width="2">
+      <path d="M485 100h51m35 0h256" stroke="#78dbba"/>
+      <use href="#pulse" x="536" y="100" stroke="#78dbba"/>
+      <path d="M485 165h151m35 0h156" stroke="#ffcb88"/>
+      <use href="#pulse" x="636" y="165" stroke="#ffcb88"/>
+      <path d="M550 117v83m100-18v18" stroke="#8299a2" stroke-dasharray="4 5"/>
+      <path d="M550 199v7m0-4h100m0-3v7" stroke="#a5bbc5"/>
+      <path d="M485 242h340" stroke="#a5bbc5" marker-end="url(#arrow)"/>
+    </g>
+    <text x="600" y="226" text-anchor="middle" fill="#e4eef0" font-size="16">Arrival delay</text>
+    <text x="827" y="268" text-anchor="end" fill="#c9d8db" font-size="16">Time</text>
+  </g>
+</svg>

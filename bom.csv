@@ -1,0 +1,15 @@
+Ref or item,Description,Three-mic quantity,Additional for MIC4,Kit status,Assembly notes
+Host,Digilent Zybo Z7-20,1,0,Existing board,Use the port marked JE
+Board power,Micro-USB data cable for normal USB/JTAG power or board-approved supply,1,0,Existing or additional,Use the board manual for source and jumper selection; power microphones only from JE 3.3 V
+U1-U4,EGSCST six-terminal INMP441 breakout,3,1,Three supplied per user,Read and photograph both sides before assembly
+Mic headers,Male solder-in header pins matching actual PCB geometry,18 contacts,6 contacts,Supplied loose per user,Verify fit; solder properly before attaching cable sockets
+Mic leads,Female-to-female Dupont leads,18,6,Included per user; count and colors unverified,For microphone-to-harness male posts; may use a short local L/R strap in place of a lead
+JE plug,2x6 2.54 mm male Pmod breakout or solderable interposer,1,0,Additional strongly recommended,Mark pin 1 and verify the plug against the female-face drawing; choose breakout with labeled fanout
+JE leads,Short jumper leads or interposer pigtails,9,1,Additional if required by interposer,For adapter male posts use female-to-male to the breadboard; for female sockets use male-to-male
+Fanout,Small solderless breadboard or soldered distribution board with male posts,1,0,Additional,Allocate four independent shared buses and one private row for each SD
+Fanout posts,2.54 mm male terminal strips for the distribution end of female leads,As needed,As needed,Additional if not already on harness,Add enough separate positions for SCK WS VDD GND and each SD
+R1-R4,100 kΩ 1/8 W or 1/4 W resistor,Up to 3,Up to 1,Additional unless confirmed onboard,One from each private SD to GND; 1% or 5% acceptable
+C1-C4,100 nF ceramic X7R or better; at least 6.3 V,Up to 3,Up to 1,Additional unless confirmed onboard,One across VDD/GND at each microphone; small leads or suitable local adapter
+Assembly tools,Multimeter; soldering iron; solder; fine tip and magnifier,1 set,0,Tools,Required for assembly and the continuity/polarity checks
+Validation tools,Oscilloscope with 10x probes and short probe grounds; optional I2S logic analyzer,1 set,0,Tools,Use scope at the farthest microphone for 20 cm wiring; analyzer alone cannot show edge ringing
+Mounting,Nonconductive standoffs or backing and cable strain relief,As needed,As needed,Optional,Keep the acoustic port clear; do not cover it with tape or adhesive

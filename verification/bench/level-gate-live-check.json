@@ -1,0 +1,80 @@
+{
+  "reflection_rejection": false,
+  "gate_enabled": true,
+  "gate_db": -22,
+  "live_slider_check": true,
+  "frames": [
+    {
+      "sequence": 1,
+      "level_db": -16.91013755444445,
+      "dropped": 0,
+      "chart_hidden": false
+    },
+    {
+      "sequence": 3,
+      "level_db": -8.82386066417305,
+      "dropped": 0,
+      "chart_hidden": false
+    },
+    {
+      "sequence": 5,
+      "level_db": -9.53398458684533,
+      "dropped": 0,
+      "chart_hidden": false
+    },
+    {
+      "sequence": 8,
+      "level_db": -11.51682559842542,
+      "dropped": 0,
+      "chart_hidden": false
+    },
+    {
+      "sequence": 10,
+      "level_db": -14.226626954271353,
+      "dropped": 0,
+      "chart_hidden": false
+    },
+    {
+      "sequence": 12,
+      "level_db": -16.252711308325924,
+      "dropped": 0,
+      "chart_hidden": false
+    },
+    {
+      "sequence": 15,
+      "level_db": -21.704654906184576,
+      "dropped": 0,
+      "chart_hidden": false
+    },
+    {
+      "sequence": 17,
+      "level_db": -17.682983220300063,
+      "dropped": 0,
+      "chart_hidden": false
+    },
+    {
+      "sequence": 19,
+      "level_db": -14.435551571963163,
+      "dropped": 0,
+      "chart_hidden": false
+    },
+    {
+      "sequence": 22,
+      "level_db": -16.489708845217265,
+      "dropped": 0,
+      "chart_hidden": false
+    },
+    {
+      "sequence": 24,
+      "level_db": -19.28229836506548,
+      "dropped": 0,
+      "chart_hidden": false
+    },
+    {
+      "sequence": 27,
+      "level_db": -22.793400283287127,
+      "dropped": 0,
+      "chart_hidden": true
+    }
+  ]
+}

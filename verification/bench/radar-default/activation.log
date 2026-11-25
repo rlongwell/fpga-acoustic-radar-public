@@ -1,0 +1,83 @@
+mountpoint -q /boot && cd /boot/profiles/radar && sha256sum -c SHA256SUMS && t
+est -x /opt/zybo/radar/radar-stream; rc=$?; printf '\nBOOTCFG-STATUS-%d\n' "$rc"
+system.bit: OK
+system.dtb: OK
+radar.scr: OK
+
+BOOTCFG-STATUS-0
+echo 'f9f2b158a86f5fa5f083e164981b52c6b4f375513acce0c501ca87174a03cd06  /root/
+radar-default-f9f2b158a86f.tar.gz' | sha256sum -c - && work=$(mktemp -d /tmp/rad
+ar-default.XXXXXX) && cd "$work" && gzip -dc /root/radar-default-f9f2b158a86f.ta
+r.gz > bundle.tar && tar -xf bundle.tar && sha256sum -c SHA256SUMS && sh -n zybo
+-profile.sh && python3 -m py_compile zybo-profile-menu.py; rc=$?; printf '\nBOOT
+CFG-STATUS-%d\n' "$rc"
+/root/radar-default-f9f2b158a86f.tar.gz: OK
+boot.cmd: OK
+boot.scr: OK
+zybo-profile.sh: OK
+zybo-profile-menu.py: OK
+
+BOOTCFG-STATUS-0
+bak=$(mktemp -d /boot/before-radar-default.XXXXXX) && cp /boot/boot.cmd /boot/
+boot.scr /boot/profile.env "$bak/" && cmp /boot/boot.scr "$bak/boot.scr" && save
+d=$(mktemp -d /root/before-radar-default.XXXXXX) && cp -p /usr/sbin/zybo-profile
+.sh /usr/libexec/zybo-profile-menu.py "$saved/" && sync && echo Original-files-s
+aved-in "$bak" "$saved"; rc=$?; printf '\nBOOTCFG-STATUS-%d\n' "$rc"
+Original-files-saved-in /boot/before-radar-default.nOgbqf /root/before-radar-default.OrAwbO
+
+BOOTCFG-STATUS-0
+tmp=$(mktemp /boot/boot.cmd.stage.XXXXXX) && cp boot.cmd "$tmp" && chmod 0644 
+"$tmp" && cmp boot.cmd "$tmp" && sync && mv -f "$tmp" /boot/boot.cmd && sync && 
+cmp boot.cmd /boot/boot.cmd; rc=$?; printf '\nBOOTCFG-STATUS-%d\n' "$rc"
+
+BOOTCFG-STATUS-0
+tmp=$(mktemp /usr/sbin/zybo-profile.sh.stage.XXXXXX) && cp zybo-profile.sh "$t
+mp" && chmod 0755 "$tmp" && cmp zybo-profile.sh "$tmp" && sync && mv -f "$tmp" /
+usr/sbin/zybo-profile.sh && sync && cmp zybo-profile.sh /usr/sbin/zybo-profile.s
+h; rc=$?; printf '\nBOOTCFG-STATUS-%d\n' "$rc"
+
+BOOTCFG-STATUS-0
+tmp=$(mktemp /usr/libexec/zybo-profile-menu.py.stage.XXXXXX) && cp zybo-profil
+e-menu.py "$tmp" && chmod 0644 "$tmp" && cmp zybo-profile-menu.py "$tmp" && sync
+ && mv -f "$tmp" /usr/libexec/zybo-profile-menu.py && sync && cmp zybo-profile-m
+enu.py /usr/libexec/zybo-profile-menu.py; rc=$?; printf '\nBOOTCFG-STATUS-%d\n' 
+"$rc"
+
+BOOTCFG-STATUS-0
+tmp=$(mktemp /boot/boot.scr.stage.XXXXXX) && cp boot.scr "$tmp" && chmod 0644 
+"$tmp" && cmp boot.scr "$tmp" && sync && mv -f "$tmp" /boot/boot.scr && sync && 
+cmp boot.scr /boot/boot.scr; rc=$?; printf '\nBOOTCFG-STATUS-%d\n' "$rc"
+
+BOOTCFG-STATUS-0
+zybo-profile list && zybo-profile select radar && grep -qx 'zybo_profile=radar
+' /boot/profile.env && zybo-profile status; rc=$?; printf '\nBOOTCFG-STATUS-%d\n
+' "$rc"
+fx      ZyboFX single effects
+chain4  ZyboFX Chain4 and Studio
+hash    FPGA DFX hash accelerator
+vision  ZyboVision convolution board
+rescue  Linux without FPGA drivers
+radar   Six-microphone acoustic radar
+system.bit: OK
+system.dtb: OK
+radar.scr: OK
+Next boot: radar
+Zybo profile: hash
+FPGA bitstream: profiles/hash/system.bit
+Device tree: profiles/hash/system.dtb
+Board: Digilent Zybo Z7-20 DFX hash accelerator
+Next boot: radar
+
+BOOTCFG-STATUS-0
+zybo-profile status && grep -qx zybo_profile=radar /boot/profile.env && grep -
+qw zybo.profile=radar /proc/cmdline && ls -l /dev/uio* && /opt/zybo/radar/radar-
+stream --check; rc=$?; printf '\nBOOTCFG-STATUS-%d\n' "$rc"
+Zybo profile: radar
+FPGA bitstream: profiles/radar/system.bit
+Device tree: profiles/radar/system.dtb
+Board: Digilent Zybo Z7 board
+Next boot: radar
+crw-------    1 root     root      246,   0 Jan  1 00:00 [1;35m/dev/uio0[m
+RADAR-READY abi=00010000 mode=0 seq=0 frames=0 dropped=0
+
+BOOTCFG-STATUS-0

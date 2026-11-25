@@ -1,0 +1,13 @@
+#!/bin/sh
+# Use the image's existing DHCP handler for DNS, and prefer wired default routes.
+/usr/share/udhcpc/default.script "$@" || exit
+case "$1" in
+    bound|renew)
+        for gw in ${router:-}; do
+            [ -z "${staticroutes:-}" ] || break
+            ip -4 route replace default via "$gw" dev "$interface" metric 80 &&
+                ip -4 route del default via "$gw" dev "$interface" metric 0 2>/dev/null || :
+            break
+        done
+        ;;
+esac

@@ -1,0 +1,68 @@
+#!/bin/sh
+# Run only on the Zybo. Wait for a configured, supported Wi-Fi adapter.
+set -u
+base=/opt/zybo/wifi
+cfg=/etc/zybo/wifi.conf
+run=/run/zybo-wifi
+export LD_LIBRARY_PATH="$base/lib"
+umask 077
+mkdir -p "$run"
+wpa=
+dhcp=
+iface=
+
+release_dhcp() {
+    if [ -n "$dhcp" ]; then
+        kill -USR2 "$dhcp" 2>/dev/null || :
+        kill "$dhcp" 2>/dev/null || :
+        wait "$dhcp" 2>/dev/null || :
+        dhcp=
+    fi
+    if [ -n "$iface" ]; then
+        ip -4 addr flush dev "$iface" scope global 2>/dev/null || :
+        ip -4 route flush dev "$iface" 2>/dev/null || :
+        interface="$iface" "$base/wifi-dhcp" deconfig 2>/dev/null || :
+    fi
+}
+cleanup() {
+    release_dhcp
+    if [ -n "$wpa" ]; then
+        kill "$wpa" 2>/dev/null || :
+        wait "$wpa" 2>/dev/null || :
+        wpa=
+    fi
+}
+trap 'cleanup; exit 0' INT TERM
+while :; do
+    iface=
+    if [ -s "$cfg" ]; then
+        for dev in /sys/class/net/*; do
+            driver=$(readlink "$dev/device/driver" 2>/dev/null || :)
+            case "${driver##*/}" in
+                mt76x0u) iface="${dev##*/}"; break ;;
+            esac
+        done
+    fi
+    if [ -z "$iface" ]; then
+        sleep 3
+        continue
+    fi
+    ip link set "$iface" up || { sleep 3; continue; }
+    "$base/bin/wpa_supplicant" -i "$iface" -D nl80211 -c "$cfg" &
+    wpa=$!
+    while [ -d "/sys/class/net/$iface" ] && kill -0 "$wpa" 2>/dev/null; do
+        if [ "$(cat "/sys/class/net/$iface/carrier" 2>/dev/null)" = 1 ]; then
+            if [ -z "$dhcp" ]; then
+                udhcpc -f -i "$iface" -s "$base/wifi-dhcp" -p "$run/udhcpc.pid" -x hostname:zybo &
+                dhcp=$!
+            elif ! kill -0 "$dhcp" 2>/dev/null; then
+                release_dhcp
+            fi
+        elif [ -n "$dhcp" ]; then
+            release_dhcp
+        fi
+        sleep 3
+    done
+    cleanup
+    sleep 3
+done

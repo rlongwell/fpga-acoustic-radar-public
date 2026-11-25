@@ -1,0 +1,9 @@
+cat /proc/cmdline; uname -r; cat /boot/profile.env; sha256sum /boot/profiles/r
+adar/system.bit; /opt/zybo/radar/radar-stream --check; echo HEX-POST-DONE
+console=ttyPS0,115200 root=PARTUUID=4c4b27e1-02 rootfstype=ext4 rw rootwait cma=32M uio_pdrv_genirq.of_id=generic-uio zybo.profile=radar
+6.6.40-dfx-hash-wifi
+zybo_profile=hash
+ba447e3f35c22583d6bcd3e24dd233225c7cb48f6484ff6ac6740f0d21288f2a  /boot/profiles/radar/system.bit
+RADAR-READY abi=00010000 mode=0 seq=0 frames=0 dropped=0
+HEX-POST-DONE
+

@@ -1,0 +1,265 @@
+{
+  "frames": 15,
+  "filter_enabled": true,
+  "raw_response": false,
+  "column_mm": 36.0,
+  "row_mm": 55.0,
+  "measured": false,
+  "observations": [
+    {
+      "sequence": 1,
+      "samples": 8236,
+      "dropped": 0,
+      "energy": [
+        9413335,
+        0,
+        4545026,
+        14135325,
+        7282822,
+        8313254
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal",
+      "pair_agreement": 0.0,
+      "correlation": 0.04581621174904149
+    },
+    {
+      "sequence": 3,
+      "samples": 17955,
+      "dropped": 0,
+      "energy": [
+        8647634,
+        0,
+        6934408,
+        6328829,
+        13883466,
+        4941339
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal",
+      "pair_agreement": 0.1,
+      "correlation": 0.016535433070866145
+    },
+    {
+      "sequence": 5,
+      "samples": 27670,
+      "dropped": 0,
+      "energy": [
+        10344257,
+        0,
+        10746178,
+        6282019,
+        8210573,
+        9183883
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal",
+      "pair_agreement": 0.0,
+      "correlation": 0.010449714193889058
+    },
+    {
+      "sequence": 8,
+      "samples": 37383,
+      "dropped": 0,
+      "energy": [
+        8102764,
+        0,
+        9854619,
+        6307775,
+        5802120,
+        10929368
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal",
+      "pair_agreement": 0.0,
+      "correlation": 0.008686669268382238
+    },
+    {
+      "sequence": 10,
+      "samples": 47096,
+      "dropped": 0,
+      "energy": [
+        6619922,
+        0,
+        8366851,
+        5685545,
+        4783680,
+        8448469
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal",
+      "pair_agreement": 0.0,
+      "correlation": 0.004774913339914081
+    },
+    {
+      "sequence": 12,
+      "samples": 56808,
+      "dropped": 0,
+      "energy": [
+        29012033,
+        0,
+        7396257,
+        5723021,
+        5804613,
+        8614163
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal",
+      "pair_agreement": 0.0,
+      "correlation": 0.019111131516723702
+    },
+    {
+      "sequence": 15,
+      "samples": 66520,
+      "dropped": 0,
+      "energy": [
+        4840254,
+        0,
+        5258219,
+        4454916,
+        4254197,
+        5671345
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal",
+      "pair_agreement": 0.0,
+      "correlation": 0.0072587865292347495
+    },
+    {
+      "sequence": 17,
+      "samples": 76234,
+      "dropped": 0,
+      "energy": [
+        4772867,
+        0,
+        5285555,
+        4190761,
+        4438520,
+        4745407
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal",
+      "pair_agreement": 0.0,
+      "correlation": 0.011358784233603429
+    },
+    {
+      "sequence": 19,
+      "samples": 85946,
+      "dropped": 0,
+      "energy": [
+        6130797,
+        0,
+        6440811,
+        5614343,
+        6198819,
+        5991860
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal",
+      "pair_agreement": 0.1,
+      "correlation": 0.02856454167718824
+    },
+    {
+      "sequence": 22,
+      "samples": 95657,
+      "dropped": 0,
+      "energy": [
+        5727775,
+        0,
+        5678709,
+        4991891,
+        5528947,
+        4877579
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal",
+      "pair_agreement": 0.1,
+      "correlation": 0.030637496843506796
+    },
+    {
+      "sequence": 24,
+      "samples": 105368,
+      "dropped": 0,
+      "energy": [
+        5144625,
+        0,
+        5498503,
+        4642615,
+        4455805,
+        4193847
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal",
+      "pair_agreement": 0.0,
+      "correlation": 0.00398751176511093
+    },
+    {
+      "sequence": 27,
+      "samples": 115081,
+      "dropped": 0,
+      "energy": [
+        15344436,
+        0,
+        13594795,
+        14251571,
+        18131530,
+        11413323
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal",
+      "pair_agreement": 0.4,
+      "correlation": 0.05984986113005888
+    },
+    {
+      "sequence": 29,
+      "samples": 124794,
+      "dropped": 0,
+      "energy": [
+        11678990,
+        0,
+        11506183,
+        10950913,
+        13664639,
+        9852473
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal",
+      "pair_agreement": 0.4,
+      "correlation": 0.05817318089147929
+    },
+    {
+      "sequence": 31,
+      "samples": 134506,
+      "dropped": 0,
+      "energy": [
+        7773035,
+        0,
+        6979195,
+        6892666,
+        7633546,
+        6339919
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal",
+      "pair_agreement": 0.1,
+      "correlation": 0.031805973232937726
+    },
+    {
+      "sequence": 34,
+      "samples": 144218,
+      "dropped": 0,
+      "energy": [
+        9004566,
+        0,
+        10183677,
+        9457292,
+        10154369,
+        8654583
+      ],
+      "accepted": false,
+      "reason": "Weak directional signal",
+      "pair_agreement": 0.2,
+      "correlation": 0.05709681123360357
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="280" viewBox="0 0 860 280" role="img" aria-labelledby="title desc">
+  <title id="title">From six microphone data wires to timing measurements and audio</title>
+  <desc id="desc">The FPGA supplies a shared bit clock and word select to six microphones. Their individual data lines feed a parallel I²S receiver. Each frame goes to both the pair correlator and the recording buffer.</desc>
+  <defs>
+    <marker id="data" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="4" markerHeight="4" orient="auto">
+      <path d="M0 0 8 4 0 8Z" fill="#78dbba"/>
+    </marker>
+    <marker id="clock" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="4" markerHeight="4" orient="auto">
+      <path d="M0 0 8 4 0 8Z" fill="#ffcb88"/>
+    </marker>
+  </defs>
+  <rect x=".5" y=".5" width="859" height="279" rx="12" fill="#14232c" stroke="#3b505a"/>
+  <rect x="222" y="18" width="619" height="244" rx="10" fill="#182c35" stroke="#607b85" stroke-dasharray="6 5"/>
+  <g font-family="system-ui, sans-serif">
+    <g font-weight="650" font-size="20">
+      <text x="23" y="51" fill="#f4f7f6">Six microphones</text>
+      <text x="247" y="51" fill="#f4f7f6">Zybo Z7-20 FPGA</text>
+    </g>
+    <text x="23" y="79" font-size="16" fill="#c9d8db">One data wire per mic</text>
+    <g stroke="#78dbba" stroke-width="2" fill="#78dbba">
+      <path d="M36 107H245 M36 120H245 M36 133H245 M36 146H245 M36 159H245 M36 172H245" fill="none"/>
+      <circle cx="36" cy="107" r="3"/><circle cx="36" cy="120" r="3"/>
+      <circle cx="36" cy="133" r="3"/><circle cx="36" cy="146" r="3"/>
+      <circle cx="36" cy="159" r="3"/><circle cx="36" cy="172" r="3"/>
+    </g>
+    <rect x="245" y="91" width="191" height="100" rx="7" fill="#213b44" stroke="#78dbba"/>
+    <text x="263" y="122" font-size="21" font-weight="650" fill="#f4f7f6">I²S receiver</text>
+    <g font-size="17" fill="#d2e2e3">
+      <text x="263" y="150">6 × 24-bit samples</text>
+      <text x="263" y="173">48,000 frames/s</text>
+    </g>
+    <g fill="none" stroke="#78dbba" stroke-width="2.5">
+      <path d="M436 141H468"/>
+      <path d="M468 141V95H495" marker-end="url(#data)"/>
+      <path d="M468 141V197H495" marker-end="url(#data)"/>
+    </g>
+    <circle cx="468" cy="141" r="4" fill="#78dbba"/>
+    <g fill="#213b44" stroke="#4d737a">
+      <rect x="501" y="64" width="314" height="72" rx="7"/>
+      <rect x="501" y="165" width="314" height="72" rx="7"/>
+    </g>
+    <g font-size="20" font-weight="650" fill="#f4f7f6">
+      <text x="519" y="94">Pair correlator</text>
+      <text x="519" y="195">Audio buffer</text>
+    </g>
+    <g font-size="16" fill="#c9d8db">
+      <text x="519" y="119">15 delay profiles and 6 mic levels</text>
+      <text x="519" y="220">Original samples for recording</text>
+    </g>
+    <path d="M339 191V219H37" fill="none" stroke="#ffcb88" stroke-width="2.5" marker-end="url(#clock)"/>
+    <text x="24" y="245" font-size="16" fill="#ffcb88">Bit clock + word select</text>
+  </g>
+</svg>

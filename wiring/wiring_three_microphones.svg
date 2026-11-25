@@ -1,0 +1,355 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1000" viewBox="0 0 1560 1000" role="img"><title>Three microphone wiring</title><desc>Match the same named terminal at both ends; each horizontal colored lead has a labeled source and destination.</desc>
+<rect x="0" y="0" width="1560" height="1000" rx="0" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="1560" height="143" rx="0" fill="#142638" stroke="none" stroke-width="1"/>
+<text x="48" y="38" font-family="DejaVu Sans" font-size="16" font-weight="750" fill="#80d7ce" text-anchor="start">ZYBO Z7-20   /   PMOD JE   /   INMP441</text>
+<text x="48" y="94" font-family="DejaVu Sans" font-size="44" font-weight="750" fill="#ffffff" text-anchor="start">Three microphone wiring</text>
+<text x="50" y="124" font-family="DejaVu Sans" font-size="17" font-weight="500" fill="#d5e4ed" text-anchor="start">Match the same named terminal at both ends; each horizontal colored lead has a labeled source and destination.</text>
+<text x="1510" y="50" font-family="DejaVu Sans Mono" font-size="18" font-weight="750" fill="#a8bccc" text-anchor="end">01 / WIRING</text>
+<rect x="48" y="171" width="670" height="251" rx="15" fill="#ffffff" stroke="#d9e3e9" stroke-width="1.6"/>
+<text x="74" y="201" font-family="DejaVu Sans" font-size="15" font-weight="750" fill="#006d68" text-anchor="start">01 / FIND THE ZYBO JE CONNECTOR</text>
+<g transform="translate(78,230) scale(0.85)" aria-label="Zybo top view locator, JE leftmost on lower edge">
+<rect x="0" y="0" width="400" height="120" rx="10" fill="#185850" stroke="#10423e" stroke-width="2"/>
+<circle cx="12" cy="12" r="4" fill="#d4e3dc" stroke="none" stroke-width="1"/>
+<circle cx="388" cy="12" r="4" fill="#d4e3dc" stroke="none" stroke-width="1"/>
+<circle cx="12" cy="108" r="4" fill="#d4e3dc" stroke="none" stroke-width="1"/>
+<circle cx="388" cy="108" r="4" fill="#d4e3dc" stroke="none" stroke-width="1"/>
+<rect x="57" y="-5" width="65" height="15" rx="3" fill="#b4c9cd" stroke="none" stroke-width="1"/>
+<text x="89.5" y="6" font-family="DejaVu Sans" font-size="7" font-weight="750" fill="#142638" text-anchor="middle">ETH</text>
+<rect x="135" y="-5" width="52" height="15" rx="3" fill="#b4c9cd" stroke="none" stroke-width="1"/>
+<text x="161.0" y="6" font-family="DejaVu Sans" font-size="7" font-weight="750" fill="#142638" text-anchor="middle">HDMI TX</text>
+<rect x="308" y="-5" width="52" height="15" rx="3" fill="#b4c9cd" stroke="none" stroke-width="1"/>
+<text x="334.0" y="6" font-family="DejaVu Sans" font-size="7" font-weight="750" fill="#142638" text-anchor="middle">HDMI RX</text>
+<rect x="-7" y="71" width="29" height="23" rx="4" fill="#b4c9cd" stroke="none" stroke-width="1"/>
+<text x="8" y="86" font-family="DejaVu Sans" font-size="8" font-weight="700" fill="#142638" text-anchor="middle">USB</text>
+<rect x="184" y="41" width="45" height="37" rx="4" fill="#163341" stroke="#66938d" stroke-width="1"/>
+<text x="206" y="63" font-family="DejaVu Sans" font-size="9" font-weight="700" fill="#e0efea" text-anchor="middle">ZYNQ</text>
+<text x="250" y="44" font-family="DejaVu Sans" font-size="13" font-weight="750" fill="#ffffff" text-anchor="start">ZYBO Z7-20</text>
+<rect x="61" y="73" width="10" height="20" rx="2" fill="#203841" stroke="#a0c3c4" stroke-width="1"/>
+<rect x="76" y="73" width="10" height="20" rx="2" fill="#203841" stroke="#a0c3c4" stroke-width="1"/>
+<rect x="91" y="73" width="10" height="20" rx="2" fill="#203841" stroke="#a0c3c4" stroke-width="1"/>
+<rect x="106" y="73" width="10" height="20" rx="2" fill="#203841" stroke="#a0c3c4" stroke-width="1"/>
+<rect x="48" y="100" width="61" height="28" rx="4" fill="#ffd56a" stroke="#ffd56a" stroke-width="1.5"/>
+<text x="78" y="119" font-family="DejaVu Sans" font-size="12" font-weight="750" fill="#142638" text-anchor="middle">JE</text>
+<rect x="129" y="100" width="61" height="28" rx="4" fill="#263947" stroke="#cbd8d9" stroke-width="1.5"/>
+<text x="159" y="119" font-family="DejaVu Sans" font-size="12" font-weight="750" fill="#e1e9ea" text-anchor="middle">JD</text>
+<rect x="210" y="100" width="61" height="28" rx="4" fill="#263947" stroke="#cbd8d9" stroke-width="1.5"/>
+<text x="240" y="119" font-family="DejaVu Sans" font-size="12" font-weight="750" fill="#e1e9ea" text-anchor="middle">JC</text>
+<rect x="291" y="100" width="61" height="28" rx="4" fill="#263947" stroke="#cbd8d9" stroke-width="1.5"/>
+<text x="321" y="119" font-family="DejaVu Sans" font-size="12" font-weight="750" fill="#e1e9ea" text-anchor="middle">JB</text>
+</g>
+<text x="77" y="367" font-family="DejaVu Sans" font-size="14" font-weight="500" fill="#4b6174" text-anchor="start">Component side, switches nearest you.</text>
+<text x="77" y="389" font-family="DejaVu Sans" font-size="15" font-weight="650" fill="#142638" text-anchor="start">JE is the leftmost lower-edge Pmod, next to the USB host corner.</text>
+<rect x="439" y="242" width="246" height="70" rx="8" fill="#243442" stroke="none" stroke-width="1"/>
+<circle cx="464" cy="262" r="12" fill="#c62832" stroke="#abb7c0" stroke-width="1.6"/>
+<text x="464" y="266" font-family="DejaVu Sans Mono" font-size="11" font-weight="750" fill="#ffffff" text-anchor="middle">6</text>
+<circle cx="503" cy="262" r="12" fill="#11161d" stroke="#abb7c0" stroke-width="1.6"/>
+<text x="503" y="266" font-family="DejaVu Sans Mono" font-size="11" font-weight="750" fill="#ffffff" text-anchor="middle">5</text>
+<circle cx="542" cy="262" r="12" fill="#ec791a" stroke="#abb7c0" stroke-width="1.6"/>
+<text x="542" y="266" font-family="DejaVu Sans Mono" font-size="11" font-weight="750" fill="#142638" text-anchor="middle">4</text>
+<circle cx="581" cy="262" r="12" fill="#e5b605" stroke="#abb7c0" stroke-width="1.6"/>
+<text x="581" y="266" font-family="DejaVu Sans Mono" font-size="11" font-weight="750" fill="#142638" text-anchor="middle">3</text>
+<circle cx="620" cy="262" r="12" fill="#167338" stroke="#abb7c0" stroke-width="1.6"/>
+<text x="620" y="266" font-family="DejaVu Sans Mono" font-size="11" font-weight="750" fill="#ffffff" text-anchor="middle">2</text>
+<circle cx="659" cy="262" r="12" fill="#165aca" stroke="#ffffff" stroke-width="1.6"/>
+<text x="659" y="266" font-family="DejaVu Sans Mono" font-size="11" font-weight="750" fill="#ffffff" text-anchor="middle">1</text>
+<circle cx="464" cy="292" r="12" fill="#c62832" stroke="#abb7c0" stroke-width="1.6"/>
+<text x="464" y="296" font-family="DejaVu Sans Mono" font-size="11" font-weight="750" fill="#ffffff" text-anchor="middle">12</text>
+<circle cx="503" cy="292" r="12" fill="#11161d" stroke="#abb7c0" stroke-width="1.6"/>
+<text x="503" y="296" font-family="DejaVu Sans Mono" font-size="11" font-weight="750" fill="#ffffff" text-anchor="middle">11</text>
+<circle cx="542" cy="292" r="12" fill="#8e9aaa" stroke="#abb7c0" stroke-width="1.6"/>
+<text x="542" y="296" font-family="DejaVu Sans Mono" font-size="11" font-weight="750" fill="#ffffff" text-anchor="middle">10</text>
+<circle cx="581" cy="292" r="12" fill="#8e9aaa" stroke="#abb7c0" stroke-width="1.6"/>
+<text x="581" y="296" font-family="DejaVu Sans Mono" font-size="11" font-weight="750" fill="#ffffff" text-anchor="middle">9</text>
+<circle cx="620" cy="292" r="12" fill="#008887" stroke="#abb7c0" stroke-width="1.6"/>
+<text x="620" y="296" font-family="DejaVu Sans Mono" font-size="11" font-weight="750" fill="#ffffff" text-anchor="middle">8</text>
+<circle cx="659" cy="292" r="12" fill="#873bc6" stroke="#abb7c0" stroke-width="1.6"/>
+<text x="659" y="296" font-family="DejaVu Sans Mono" font-size="11" font-weight="750" fill="#ffffff" text-anchor="middle">7</text>
+<line x1="435" y1="316" x2="689" y2="316" stroke="#006d68" stroke-width="4" stroke-linecap="round" />
+<text x="562" y="344" font-family="DejaVu Sans" font-size="14" font-weight="750" fill="#4b6174" text-anchor="middle">FEMALE FACE</text>
+<rect x="48" y="440" width="670" height="483" rx="15" fill="#ffffff" stroke="#d9e3e9" stroke-width="1.6"/>
+<text x="74" y="474" font-family="DejaVu Sans" font-size="15" font-weight="750" fill="#006d68" text-anchor="start">02 / CONNECT JE TO THE DISTRIBUTION POINT</text>
+<text x="78" y="509" font-family="DejaVu Sans" font-size="13" font-weight="750" fill="#4b6174" text-anchor="start">SOCKET</text>
+<text x="200" y="509" font-family="DejaVu Sans" font-size="13" font-weight="750" fill="#4b6174" text-anchor="start">PACKAGE</text>
+<text x="483" y="509" font-family="DejaVu Sans" font-size="13" font-weight="750" fill="#4b6174" text-anchor="start">BREADBOARD OR HARNESS</text>
+<g data-kind="je-wire" data-je-pin="6" data-net="+3V3">
+<rect x="71" y="525" width="623" height="29" rx="5" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<text x="79" y="546" font-family="DejaVu Sans Mono" font-size="18" font-weight="750" fill="#142638" text-anchor="start">JE6</text>
+<text x="200" y="545" font-family="DejaVu Sans Mono" font-size="15" font-weight="650" fill="#4b6174" text-anchor="start">—</text>
+<line x1="292" y1="540" x2="464" y2="540" stroke="#c62832" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="292" cy="540" r="5.3" fill="#c62832" stroke="#ffffff" stroke-width="1"/>
+<circle cx="464" cy="540" r="5.3" fill="#c62832" stroke="#ffffff" stroke-width="1"/>
+<text x="484" y="546" font-family="DejaVu Sans Mono" font-size="18" font-weight="750" fill="#142638" text-anchor="start">+3V3</text>
+<text x="679" y="545" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#4b6174" text-anchor="end">COMMON</text>
+</g>
+<g data-kind="je-wire" data-je-pin="12" data-net="+3V3">
+<text x="79" y="579" font-family="DejaVu Sans Mono" font-size="18" font-weight="750" fill="#142638" text-anchor="start">JE12</text>
+<text x="200" y="578" font-family="DejaVu Sans Mono" font-size="15" font-weight="650" fill="#4b6174" text-anchor="start">—</text>
+<line x1="292" y1="573" x2="464" y2="573" stroke="#c62832" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="292" cy="573" r="5.3" fill="#c62832" stroke="#ffffff" stroke-width="1"/>
+<circle cx="464" cy="573" r="5.3" fill="#c62832" stroke="#ffffff" stroke-width="1"/>
+<text x="484" y="579" font-family="DejaVu Sans Mono" font-size="18" font-weight="750" fill="#142638" text-anchor="start">+3V3</text>
+<text x="679" y="578" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#4b6174" text-anchor="end">COMMON</text>
+</g>
+<g data-kind="je-wire" data-je-pin="5" data-net="GND">
+<rect x="71" y="591" width="623" height="29" rx="5" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<text x="79" y="612" font-family="DejaVu Sans Mono" font-size="18" font-weight="750" fill="#142638" text-anchor="start">JE5</text>
+<text x="200" y="611" font-family="DejaVu Sans Mono" font-size="15" font-weight="650" fill="#4b6174" text-anchor="start">—</text>
+<line x1="292" y1="606" x2="464" y2="606" stroke="#11161d" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="292" cy="606" r="5.3" fill="#11161d" stroke="#ffffff" stroke-width="1"/>
+<circle cx="464" cy="606" r="5.3" fill="#11161d" stroke="#ffffff" stroke-width="1"/>
+<text x="484" y="612" font-family="DejaVu Sans Mono" font-size="18" font-weight="750" fill="#142638" text-anchor="start">GND</text>
+<text x="679" y="611" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#4b6174" text-anchor="end">COMMON</text>
+</g>
+<g data-kind="je-wire" data-je-pin="11" data-net="GND">
+<text x="79" y="645" font-family="DejaVu Sans Mono" font-size="18" font-weight="750" fill="#142638" text-anchor="start">JE11</text>
+<text x="200" y="644" font-family="DejaVu Sans Mono" font-size="15" font-weight="650" fill="#4b6174" text-anchor="start">—</text>
+<line x1="292" y1="639" x2="464" y2="639" stroke="#11161d" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="292" cy="639" r="5.3" fill="#11161d" stroke="#ffffff" stroke-width="1"/>
+<circle cx="464" cy="639" r="5.3" fill="#11161d" stroke="#ffffff" stroke-width="1"/>
+<text x="484" y="645" font-family="DejaVu Sans Mono" font-size="18" font-weight="750" fill="#142638" text-anchor="start">GND</text>
+<text x="679" y="644" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#4b6174" text-anchor="end">COMMON</text>
+</g>
+<g data-kind="je-wire" data-je-pin="1" data-net="I2S_SCK">
+<rect x="71" y="657" width="623" height="29" rx="5" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<text x="79" y="678" font-family="DejaVu Sans Mono" font-size="18" font-weight="750" fill="#142638" text-anchor="start">JE1</text>
+<text x="200" y="677" font-family="DejaVu Sans Mono" font-size="15" font-weight="650" fill="#4b6174" text-anchor="start">V12</text>
+<line x1="292" y1="672" x2="464" y2="672" stroke="#165aca" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="292" cy="672" r="5.3" fill="#165aca" stroke="#ffffff" stroke-width="1"/>
+<circle cx="464" cy="672" r="5.3" fill="#165aca" stroke="#ffffff" stroke-width="1"/>
+<text x="484" y="678" font-family="DejaVu Sans Mono" font-size="18" font-weight="750" fill="#142638" text-anchor="start">I2S_SCK</text>
+<text x="679" y="677" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#4b6174" text-anchor="end">COMMON</text>
+</g>
+<g data-kind="je-wire" data-je-pin="2" data-net="I2S_WS">
+<text x="79" y="711" font-family="DejaVu Sans Mono" font-size="18" font-weight="750" fill="#142638" text-anchor="start">JE2</text>
+<text x="200" y="710" font-family="DejaVu Sans Mono" font-size="15" font-weight="650" fill="#4b6174" text-anchor="start">W16</text>
+<line x1="292" y1="705" x2="464" y2="705" stroke="#167338" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="292" cy="705" r="5.3" fill="#167338" stroke="#ffffff" stroke-width="1"/>
+<circle cx="464" cy="705" r="5.3" fill="#167338" stroke="#ffffff" stroke-width="1"/>
+<text x="484" y="711" font-family="DejaVu Sans Mono" font-size="18" font-weight="750" fill="#142638" text-anchor="start">I2S_WS</text>
+<text x="679" y="710" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#4b6174" text-anchor="end">COMMON</text>
+</g>
+<g data-kind="je-wire" data-je-pin="3" data-net="MIC1_SD">
+<rect x="71" y="723" width="623" height="29" rx="5" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<text x="79" y="744" font-family="DejaVu Sans Mono" font-size="18" font-weight="750" fill="#142638" text-anchor="start">JE3</text>
+<text x="200" y="743" font-family="DejaVu Sans Mono" font-size="15" font-weight="650" fill="#4b6174" text-anchor="start">J15</text>
+<line x1="292" y1="738" x2="464" y2="738" stroke="#e5b605" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="292" cy="738" r="5.3" fill="#e5b605" stroke="#ffffff" stroke-width="1"/>
+<circle cx="464" cy="738" r="5.3" fill="#e5b605" stroke="#ffffff" stroke-width="1"/>
+<text x="484" y="744" font-family="DejaVu Sans Mono" font-size="18" font-weight="750" fill="#142638" text-anchor="start">MIC1_SD</text>
+<text x="679" y="743" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#4b6174" text-anchor="end">PRIVATE</text>
+</g>
+<g data-kind="je-wire" data-je-pin="4" data-net="MIC2_SD">
+<text x="79" y="777" font-family="DejaVu Sans Mono" font-size="18" font-weight="750" fill="#142638" text-anchor="start">JE4</text>
+<text x="200" y="776" font-family="DejaVu Sans Mono" font-size="15" font-weight="650" fill="#4b6174" text-anchor="start">H15</text>
+<line x1="292" y1="771" x2="464" y2="771" stroke="#ec791a" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="292" cy="771" r="5.3" fill="#ec791a" stroke="#ffffff" stroke-width="1"/>
+<circle cx="464" cy="771" r="5.3" fill="#ec791a" stroke="#ffffff" stroke-width="1"/>
+<text x="484" y="777" font-family="DejaVu Sans Mono" font-size="18" font-weight="750" fill="#142638" text-anchor="start">MIC2_SD</text>
+<text x="679" y="776" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#4b6174" text-anchor="end">PRIVATE</text>
+</g>
+<g data-kind="je-wire" data-je-pin="7" data-net="MIC3_SD">
+<rect x="71" y="789" width="623" height="29" rx="5" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<text x="79" y="810" font-family="DejaVu Sans Mono" font-size="18" font-weight="750" fill="#142638" text-anchor="start">JE7</text>
+<text x="200" y="809" font-family="DejaVu Sans Mono" font-size="15" font-weight="650" fill="#4b6174" text-anchor="start">V13</text>
+<line x1="292" y1="804" x2="464" y2="804" stroke="#873bc6" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="292" cy="804" r="5.3" fill="#873bc6" stroke="#ffffff" stroke-width="1"/>
+<circle cx="464" cy="804" r="5.3" fill="#873bc6" stroke="#ffffff" stroke-width="1"/>
+<text x="484" y="810" font-family="DejaVu Sans Mono" font-size="18" font-weight="750" fill="#142638" text-anchor="start">MIC3_SD</text>
+<text x="679" y="809" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#4b6174" text-anchor="end">PRIVATE</text>
+</g>
+<text x="76" y="857" font-family="DejaVu Sans" font-size="15" font-weight="700" fill="#142638" text-anchor="start">Four shared buses: +3V3, GND, I2S_SCK, I2S_WS.</text>
+<text x="76" y="881" font-family="DejaVu Sans" font-size="14.5" font-weight="500" fill="#4b6174" text-anchor="start">Keep each MICx_SD on its own row. Leave JE8, JE9 and JE10 open.</text>
+<text x="76" y="904" font-family="DejaVu Sans" font-size="14.5" font-weight="500" fill="#4b6174" text-anchor="start">Gray L/R straps connect to the same GND rail as the black leads.</text>
+<rect x="750" y="171" width="762" height="234" rx="15" fill="#ffffff" stroke="#d9e3e9" stroke-width="1.6"/>
+<text x="776" y="205" font-family="DejaVu Sans" font-size="22" font-weight="750" fill="#142638" text-anchor="start">MIC1  /  INMP441</text>
+<text x="1488" y="205" font-family="DejaVu Sans" font-size="14" font-weight="750" fill="#006d68" text-anchor="end">LEFT CHANNEL</text>
+<circle cx="1380" cy="287" r="46" fill="#25364a" stroke="#759e9c" stroke-width="2"/>
+<circle cx="1380" cy="287" r="38" fill="#1d2d3d" stroke="#486479" stroke-width="1"/>
+<rect x="1367.81" y="274.81" width="24.380000000000003" height="24.380000000000003" rx="5" fill="#d9e5ea" stroke="#8ba3aa" stroke-width="1.4"/>
+<circle cx="1385.3636" cy="291.6322" r="2" fill="#31465a" stroke="none" stroke-width="1"/>
+<text x="1380" y="355" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#4b6174" text-anchor="middle">LOGICAL VIEW</text>
+<g data-kind="mic-terminal" data-mic="1" data-terminal="VDD" data-net="+3V3" data-je-pin="6/12">
+<rect x="777" y="215" width="198" height="26" rx="6" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="784" y="224" width="10" height="10" rx="2" fill="#c62832" stroke="none" stroke-width="1"/>
+<text x="801" y="235" font-family="DejaVu Sans Mono" font-size="15" font-weight="700" fill="#142638" text-anchor="start">+3V3  JE6/12</text>
+<line x1="993" y1="230" x2="1158" y2="230" stroke="#c62832" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="993" cy="230" r="5.3" fill="#c62832" stroke="#ffffff" stroke-width="1"/>
+<circle cx="1158" cy="230" r="5.3" fill="#c62832" stroke="#ffffff" stroke-width="1"/>
+<text x="1176" y="236" font-family="DejaVu Sans Mono" font-size="17" font-weight="750" fill="#142638" text-anchor="start">VDD</text>
+</g>
+<g data-kind="mic-terminal" data-mic="1" data-terminal="GND" data-net="GND" data-je-pin="5/11">
+<rect x="777" y="240" width="198" height="26" rx="6" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="784" y="249" width="10" height="10" rx="2" fill="#11161d" stroke="none" stroke-width="1"/>
+<text x="801" y="260" font-family="DejaVu Sans Mono" font-size="15" font-weight="700" fill="#142638" text-anchor="start">GND   JE5/11</text>
+<line x1="993" y1="255" x2="1158" y2="255" stroke="#11161d" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="993" cy="255" r="5.3" fill="#11161d" stroke="#ffffff" stroke-width="1"/>
+<circle cx="1158" cy="255" r="5.3" fill="#11161d" stroke="#ffffff" stroke-width="1"/>
+<text x="1176" y="261" font-family="DejaVu Sans Mono" font-size="17" font-weight="750" fill="#142638" text-anchor="start">GND</text>
+</g>
+<g data-kind="mic-terminal" data-mic="1" data-terminal="SCK" data-net="I2S_SCK" data-je-pin="1">
+<rect x="777" y="265" width="198" height="26" rx="6" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="784" y="274" width="10" height="10" rx="2" fill="#165aca" stroke="none" stroke-width="1"/>
+<text x="801" y="285" font-family="DejaVu Sans Mono" font-size="15" font-weight="700" fill="#142638" text-anchor="start">I2S_SCK  JE1</text>
+<line x1="993" y1="280" x2="1158" y2="280" stroke="#165aca" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="993" cy="280" r="5.3" fill="#165aca" stroke="#ffffff" stroke-width="1"/>
+<circle cx="1158" cy="280" r="5.3" fill="#165aca" stroke="#ffffff" stroke-width="1"/>
+<text x="1176" y="286" font-family="DejaVu Sans Mono" font-size="17" font-weight="750" fill="#142638" text-anchor="start">SCK</text>
+</g>
+<g data-kind="mic-terminal" data-mic="1" data-terminal="WS" data-net="I2S_WS" data-je-pin="2">
+<rect x="777" y="290" width="198" height="26" rx="6" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="784" y="299" width="10" height="10" rx="2" fill="#167338" stroke="none" stroke-width="1"/>
+<text x="801" y="310" font-family="DejaVu Sans Mono" font-size="15" font-weight="700" fill="#142638" text-anchor="start">I2S_WS   JE2</text>
+<line x1="993" y1="305" x2="1158" y2="305" stroke="#167338" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="993" cy="305" r="5.3" fill="#167338" stroke="#ffffff" stroke-width="1"/>
+<circle cx="1158" cy="305" r="5.3" fill="#167338" stroke="#ffffff" stroke-width="1"/>
+<text x="1176" y="311" font-family="DejaVu Sans Mono" font-size="17" font-weight="750" fill="#142638" text-anchor="start">WS</text>
+</g>
+<g data-kind="mic-terminal" data-mic="1" data-terminal="SD" data-net="MIC1_SD" data-je-pin="3">
+<rect x="777" y="315" width="198" height="26" rx="6" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="784" y="324" width="10" height="10" rx="2" fill="#e5b605" stroke="none" stroke-width="1"/>
+<text x="801" y="335" font-family="DejaVu Sans Mono" font-size="15" font-weight="700" fill="#142638" text-anchor="start">MIC1_SD  JE3</text>
+<line x1="993" y1="330" x2="1158" y2="330" stroke="#e5b605" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="993" cy="330" r="5.3" fill="#e5b605" stroke="#ffffff" stroke-width="1"/>
+<circle cx="1158" cy="330" r="5.3" fill="#e5b605" stroke="#ffffff" stroke-width="1"/>
+<text x="1176" y="336" font-family="DejaVu Sans Mono" font-size="17" font-weight="750" fill="#142638" text-anchor="start">SD</text>
+</g>
+<g data-kind="mic-terminal" data-mic="1" data-terminal="L/R" data-net="GND" data-je-pin="5/11">
+<rect x="777" y="340" width="198" height="26" rx="6" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="784" y="349" width="10" height="10" rx="2" fill="#747e89" stroke="none" stroke-width="1"/>
+<text x="801" y="360" font-family="DejaVu Sans Mono" font-size="15" font-weight="700" fill="#142638" text-anchor="start">GND   JE5/11</text>
+<line x1="993" y1="355" x2="1158" y2="355" stroke="#747e89" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="993" cy="355" r="5.3" fill="#747e89" stroke="#ffffff" stroke-width="1"/>
+<circle cx="1158" cy="355" r="5.3" fill="#747e89" stroke="#ffffff" stroke-width="1"/>
+<text x="1176" y="361" font-family="DejaVu Sans Mono" font-size="17" font-weight="750" fill="#142638" text-anchor="start">L/R</text>
+</g>
+<text x="776" y="390" font-family="DejaVu Sans" font-size="15" font-weight="500" fill="#4b6174" text-anchor="start">R1: SD to GND, 100 kΩ  •  C1: VDD to GND, 100 nF at module</text>
+<rect x="750" y="430" width="762" height="234" rx="15" fill="#ffffff" stroke="#d9e3e9" stroke-width="1.6"/>
+<text x="776" y="464" font-family="DejaVu Sans" font-size="22" font-weight="750" fill="#142638" text-anchor="start">MIC2  /  INMP441</text>
+<text x="1488" y="464" font-family="DejaVu Sans" font-size="14" font-weight="750" fill="#006d68" text-anchor="end">LEFT CHANNEL</text>
+<circle cx="1380" cy="546" r="46" fill="#25364a" stroke="#759e9c" stroke-width="2"/>
+<circle cx="1380" cy="546" r="38" fill="#1d2d3d" stroke="#486479" stroke-width="1"/>
+<rect x="1367.81" y="533.81" width="24.380000000000003" height="24.380000000000003" rx="5" fill="#d9e5ea" stroke="#8ba3aa" stroke-width="1.4"/>
+<circle cx="1385.3636" cy="550.6322" r="2" fill="#31465a" stroke="none" stroke-width="1"/>
+<text x="1380" y="614" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#4b6174" text-anchor="middle">LOGICAL VIEW</text>
+<g data-kind="mic-terminal" data-mic="2" data-terminal="VDD" data-net="+3V3" data-je-pin="6/12">
+<rect x="777" y="474" width="198" height="26" rx="6" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="784" y="483" width="10" height="10" rx="2" fill="#c62832" stroke="none" stroke-width="1"/>
+<text x="801" y="494" font-family="DejaVu Sans Mono" font-size="15" font-weight="700" fill="#142638" text-anchor="start">+3V3  JE6/12</text>
+<line x1="993" y1="489" x2="1158" y2="489" stroke="#c62832" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="993" cy="489" r="5.3" fill="#c62832" stroke="#ffffff" stroke-width="1"/>
+<circle cx="1158" cy="489" r="5.3" fill="#c62832" stroke="#ffffff" stroke-width="1"/>
+<text x="1176" y="495" font-family="DejaVu Sans Mono" font-size="17" font-weight="750" fill="#142638" text-anchor="start">VDD</text>
+</g>
+<g data-kind="mic-terminal" data-mic="2" data-terminal="GND" data-net="GND" data-je-pin="5/11">
+<rect x="777" y="499" width="198" height="26" rx="6" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="784" y="508" width="10" height="10" rx="2" fill="#11161d" stroke="none" stroke-width="1"/>
+<text x="801" y="519" font-family="DejaVu Sans Mono" font-size="15" font-weight="700" fill="#142638" text-anchor="start">GND   JE5/11</text>
+<line x1="993" y1="514" x2="1158" y2="514" stroke="#11161d" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="993" cy="514" r="5.3" fill="#11161d" stroke="#ffffff" stroke-width="1"/>
+<circle cx="1158" cy="514" r="5.3" fill="#11161d" stroke="#ffffff" stroke-width="1"/>
+<text x="1176" y="520" font-family="DejaVu Sans Mono" font-size="17" font-weight="750" fill="#142638" text-anchor="start">GND</text>
+</g>
+<g data-kind="mic-terminal" data-mic="2" data-terminal="SCK" data-net="I2S_SCK" data-je-pin="1">
+<rect x="777" y="524" width="198" height="26" rx="6" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="784" y="533" width="10" height="10" rx="2" fill="#165aca" stroke="none" stroke-width="1"/>
+<text x="801" y="544" font-family="DejaVu Sans Mono" font-size="15" font-weight="700" fill="#142638" text-anchor="start">I2S_SCK  JE1</text>
+<line x1="993" y1="539" x2="1158" y2="539" stroke="#165aca" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="993" cy="539" r="5.3" fill="#165aca" stroke="#ffffff" stroke-width="1"/>
+<circle cx="1158" cy="539" r="5.3" fill="#165aca" stroke="#ffffff" stroke-width="1"/>
+<text x="1176" y="545" font-family="DejaVu Sans Mono" font-size="17" font-weight="750" fill="#142638" text-anchor="start">SCK</text>
+</g>
+<g data-kind="mic-terminal" data-mic="2" data-terminal="WS" data-net="I2S_WS" data-je-pin="2">
+<rect x="777" y="549" width="198" height="26" rx="6" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="784" y="558" width="10" height="10" rx="2" fill="#167338" stroke="none" stroke-width="1"/>
+<text x="801" y="569" font-family="DejaVu Sans Mono" font-size="15" font-weight="700" fill="#142638" text-anchor="start">I2S_WS   JE2</text>
+<line x1="993" y1="564" x2="1158" y2="564" stroke="#167338" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="993" cy="564" r="5.3" fill="#167338" stroke="#ffffff" stroke-width="1"/>
+<circle cx="1158" cy="564" r="5.3" fill="#167338" stroke="#ffffff" stroke-width="1"/>
+<text x="1176" y="570" font-family="DejaVu Sans Mono" font-size="17" font-weight="750" fill="#142638" text-anchor="start">WS</text>
+</g>
+<g data-kind="mic-terminal" data-mic="2" data-terminal="SD" data-net="MIC2_SD" data-je-pin="4">
+<rect x="777" y="574" width="198" height="26" rx="6" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="784" y="583" width="10" height="10" rx="2" fill="#ec791a" stroke="none" stroke-width="1"/>
+<text x="801" y="594" font-family="DejaVu Sans Mono" font-size="15" font-weight="700" fill="#142638" text-anchor="start">MIC2_SD  JE4</text>
+<line x1="993" y1="589" x2="1158" y2="589" stroke="#ec791a" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="993" cy="589" r="5.3" fill="#ec791a" stroke="#ffffff" stroke-width="1"/>
+<circle cx="1158" cy="589" r="5.3" fill="#ec791a" stroke="#ffffff" stroke-width="1"/>
+<text x="1176" y="595" font-family="DejaVu Sans Mono" font-size="17" font-weight="750" fill="#142638" text-anchor="start">SD</text>
+</g>
+<g data-kind="mic-terminal" data-mic="2" data-terminal="L/R" data-net="GND" data-je-pin="5/11">
+<rect x="777" y="599" width="198" height="26" rx="6" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="784" y="608" width="10" height="10" rx="2" fill="#747e89" stroke="none" stroke-width="1"/>
+<text x="801" y="619" font-family="DejaVu Sans Mono" font-size="15" font-weight="700" fill="#142638" text-anchor="start">GND   JE5/11</text>
+<line x1="993" y1="614" x2="1158" y2="614" stroke="#747e89" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="993" cy="614" r="5.3" fill="#747e89" stroke="#ffffff" stroke-width="1"/>
+<circle cx="1158" cy="614" r="5.3" fill="#747e89" stroke="#ffffff" stroke-width="1"/>
+<text x="1176" y="620" font-family="DejaVu Sans Mono" font-size="17" font-weight="750" fill="#142638" text-anchor="start">L/R</text>
+</g>
+<text x="776" y="649" font-family="DejaVu Sans" font-size="15" font-weight="500" fill="#4b6174" text-anchor="start">R2: SD to GND, 100 kΩ  •  C2: VDD to GND, 100 nF at module</text>
+<rect x="750" y="689" width="762" height="234" rx="15" fill="#ffffff" stroke="#d9e3e9" stroke-width="1.6"/>
+<text x="776" y="723" font-family="DejaVu Sans" font-size="22" font-weight="750" fill="#142638" text-anchor="start">MIC3  /  INMP441</text>
+<text x="1488" y="723" font-family="DejaVu Sans" font-size="14" font-weight="750" fill="#006d68" text-anchor="end">LEFT CHANNEL</text>
+<circle cx="1380" cy="805" r="46" fill="#25364a" stroke="#759e9c" stroke-width="2"/>
+<circle cx="1380" cy="805" r="38" fill="#1d2d3d" stroke="#486479" stroke-width="1"/>
+<rect x="1367.81" y="792.81" width="24.380000000000003" height="24.380000000000003" rx="5" fill="#d9e5ea" stroke="#8ba3aa" stroke-width="1.4"/>
+<circle cx="1385.3636" cy="809.6322" r="2" fill="#31465a" stroke="none" stroke-width="1"/>
+<text x="1380" y="873" font-family="DejaVu Sans" font-size="12" font-weight="700" fill="#4b6174" text-anchor="middle">LOGICAL VIEW</text>
+<g data-kind="mic-terminal" data-mic="3" data-terminal="VDD" data-net="+3V3" data-je-pin="6/12">
+<rect x="777" y="733" width="198" height="26" rx="6" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="784" y="742" width="10" height="10" rx="2" fill="#c62832" stroke="none" stroke-width="1"/>
+<text x="801" y="753" font-family="DejaVu Sans Mono" font-size="15" font-weight="700" fill="#142638" text-anchor="start">+3V3  JE6/12</text>
+<line x1="993" y1="748" x2="1158" y2="748" stroke="#c62832" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="993" cy="748" r="5.3" fill="#c62832" stroke="#ffffff" stroke-width="1"/>
+<circle cx="1158" cy="748" r="5.3" fill="#c62832" stroke="#ffffff" stroke-width="1"/>
+<text x="1176" y="754" font-family="DejaVu Sans Mono" font-size="17" font-weight="750" fill="#142638" text-anchor="start">VDD</text>
+</g>
+<g data-kind="mic-terminal" data-mic="3" data-terminal="GND" data-net="GND" data-je-pin="5/11">
+<rect x="777" y="758" width="198" height="26" rx="6" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="784" y="767" width="10" height="10" rx="2" fill="#11161d" stroke="none" stroke-width="1"/>
+<text x="801" y="778" font-family="DejaVu Sans Mono" font-size="15" font-weight="700" fill="#142638" text-anchor="start">GND   JE5/11</text>
+<line x1="993" y1="773" x2="1158" y2="773" stroke="#11161d" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="993" cy="773" r="5.3" fill="#11161d" stroke="#ffffff" stroke-width="1"/>
+<circle cx="1158" cy="773" r="5.3" fill="#11161d" stroke="#ffffff" stroke-width="1"/>
+<text x="1176" y="779" font-family="DejaVu Sans Mono" font-size="17" font-weight="750" fill="#142638" text-anchor="start">GND</text>
+</g>
+<g data-kind="mic-terminal" data-mic="3" data-terminal="SCK" data-net="I2S_SCK" data-je-pin="1">
+<rect x="777" y="783" width="198" height="26" rx="6" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="784" y="792" width="10" height="10" rx="2" fill="#165aca" stroke="none" stroke-width="1"/>
+<text x="801" y="803" font-family="DejaVu Sans Mono" font-size="15" font-weight="700" fill="#142638" text-anchor="start">I2S_SCK  JE1</text>
+<line x1="993" y1="798" x2="1158" y2="798" stroke="#165aca" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="993" cy="798" r="5.3" fill="#165aca" stroke="#ffffff" stroke-width="1"/>
+<circle cx="1158" cy="798" r="5.3" fill="#165aca" stroke="#ffffff" stroke-width="1"/>
+<text x="1176" y="804" font-family="DejaVu Sans Mono" font-size="17" font-weight="750" fill="#142638" text-anchor="start">SCK</text>
+</g>
+<g data-kind="mic-terminal" data-mic="3" data-terminal="WS" data-net="I2S_WS" data-je-pin="2">
+<rect x="777" y="808" width="198" height="26" rx="6" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="784" y="817" width="10" height="10" rx="2" fill="#167338" stroke="none" stroke-width="1"/>
+<text x="801" y="828" font-family="DejaVu Sans Mono" font-size="15" font-weight="700" fill="#142638" text-anchor="start">I2S_WS   JE2</text>
+<line x1="993" y1="823" x2="1158" y2="823" stroke="#167338" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="993" cy="823" r="5.3" fill="#167338" stroke="#ffffff" stroke-width="1"/>
+<circle cx="1158" cy="823" r="5.3" fill="#167338" stroke="#ffffff" stroke-width="1"/>
+<text x="1176" y="829" font-family="DejaVu Sans Mono" font-size="17" font-weight="750" fill="#142638" text-anchor="start">WS</text>
+</g>
+<g data-kind="mic-terminal" data-mic="3" data-terminal="SD" data-net="MIC3_SD" data-je-pin="7">
+<rect x="777" y="833" width="198" height="26" rx="6" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="784" y="842" width="10" height="10" rx="2" fill="#873bc6" stroke="none" stroke-width="1"/>
+<text x="801" y="853" font-family="DejaVu Sans Mono" font-size="15" font-weight="700" fill="#142638" text-anchor="start">MIC3_SD  JE7</text>
+<line x1="993" y1="848" x2="1158" y2="848" stroke="#873bc6" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="993" cy="848" r="5.3" fill="#873bc6" stroke="#ffffff" stroke-width="1"/>
+<circle cx="1158" cy="848" r="5.3" fill="#873bc6" stroke="#ffffff" stroke-width="1"/>
+<text x="1176" y="854" font-family="DejaVu Sans Mono" font-size="17" font-weight="750" fill="#142638" text-anchor="start">SD</text>
+</g>
+<g data-kind="mic-terminal" data-mic="3" data-terminal="L/R" data-net="GND" data-je-pin="5/11">
+<rect x="777" y="858" width="198" height="26" rx="6" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="784" y="867" width="10" height="10" rx="2" fill="#747e89" stroke="none" stroke-width="1"/>
+<text x="801" y="878" font-family="DejaVu Sans Mono" font-size="15" font-weight="700" fill="#142638" text-anchor="start">GND   JE5/11</text>
+<line x1="993" y1="873" x2="1158" y2="873" stroke="#747e89" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="993" cy="873" r="5.3" fill="#747e89" stroke="#ffffff" stroke-width="1"/>
+<circle cx="1158" cy="873" r="5.3" fill="#747e89" stroke="#ffffff" stroke-width="1"/>
+<text x="1176" y="879" font-family="DejaVu Sans Mono" font-size="17" font-weight="750" fill="#142638" text-anchor="start">L/R</text>
+</g>
+<text x="776" y="908" font-family="DejaVu Sans" font-size="15" font-weight="500" fill="#4b6174" text-anchor="start">R3: SD to GND, 100 kΩ  •  C3: VDD to GND, 100 nF at module</text>
+<line x1="48" y1="946" x2="1512" y2="946" stroke="#d9e3e9" stroke-width="1.5" stroke-linecap="round" />
+<text x="48" y="975" font-family="DejaVu Sans" font-size="15" font-weight="500" fill="#4b6174" text-anchor="start">Matching rail or row tags are electrical junctions. Fit R and C unless equivalent parts are confirmed on the module.</text>
+<text x="1512" y="975" font-family="DejaVu Sans Mono" font-size="15" font-weight="750" fill="#006d68" text-anchor="end">DESIGN 1.0  /  3.3 V ONLY</text>
+</svg>

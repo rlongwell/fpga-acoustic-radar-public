@@ -1,0 +1,26 @@
+Vivado 2024.2, xc7z020clg400-1, local pin-assignment fixture only.
+Three microphones use the base XDC. Four enable MIC4 in a temporary copy.
+Six microphones use the separate six-microphone XDC.
+
+JE CHECK 3 i2s_sck V12 LVCMOS33 OUT
+JE CHECK 3 i2s_ws W16 LVCMOS33 OUT
+JE CHECK 3 mic2_sd H15 LVCMOS33 IN
+JE CHECK 3 mic1_sd J15 LVCMOS33 IN
+JE CHECK 3 mic3_sd V13 LVCMOS33 IN
+JE CHECK 3 placed; UCIO-1 and NSTD-1: zero violations
+JE CHECK 4 i2s_sck V12 LVCMOS33 OUT
+JE CHECK 4 i2s_ws W16 LVCMOS33 OUT
+JE CHECK 4 mic2_sd H15 LVCMOS33 IN
+JE CHECK 4 mic1_sd J15 LVCMOS33 IN
+JE CHECK 4 mic3_sd V13 LVCMOS33 IN
+JE CHECK 4 mic4_sd U17 LVCMOS33 IN
+JE CHECK 4 placed; UCIO-1 and NSTD-1: zero violations
+JE CHECK 6 i2s_sck V12 LVCMOS33 OUT
+JE CHECK 6 i2s_ws W16 LVCMOS33 OUT
+JE CHECK 6 mic2_sd H15 LVCMOS33 IN
+JE CHECK 6 mic1_sd V13 LVCMOS33 IN
+JE CHECK 6 mic3_sd J15 LVCMOS33 IN
+JE CHECK 6 mic4_sd U17 LVCMOS33 IN
+JE CHECK 6 mic5_sd T17 LVCMOS33 IN
+JE CHECK 6 mic6_sd Y17 LVCMOS33 IN
+JE CHECK 6 placed; UCIO-1 and NSTD-1: zero violations

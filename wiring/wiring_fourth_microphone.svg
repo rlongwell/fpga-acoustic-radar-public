@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1000" viewBox="0 0 1560 1000" role="img"><title>Add a fourth microphone</title><desc>Reuse the four shared buses, add one private data lead, and leave MIC1, MIC2, and MIC3 in place.</desc>
+<rect x="0" y="0" width="1560" height="1000" rx="0" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="1560" height="143" rx="0" fill="#142638" stroke="none" stroke-width="1"/>
+<text x="48" y="38" font-family="DejaVu Sans" font-size="16" font-weight="750" fill="#80d7ce" text-anchor="start">ZYBO Z7-20   /   PMOD JE   /   INMP441</text>
+<text x="48" y="94" font-family="DejaVu Sans" font-size="44" font-weight="750" fill="#ffffff" text-anchor="start">Add a fourth microphone</text>
+<text x="50" y="124" font-family="DejaVu Sans" font-size="17" font-weight="500" fill="#d5e4ed" text-anchor="start">Reuse the four shared buses, add one private data lead, and leave MIC1, MIC2, and MIC3 in place.</text>
+<text x="1510" y="50" font-family="DejaVu Sans Mono" font-size="18" font-weight="750" fill="#a8bccc" text-anchor="end">04 / EXPAND</text>
+<rect x="48" y="171" width="1464" height="581" rx="15" fill="#ffffff" stroke="#d9e3e9" stroke-width="1.6"/>
+<text x="77" y="208" font-family="DejaVu Sans" font-size="15" font-weight="750" fill="#006d68" text-anchor="start">NEW MIC4 CONNECTIONS</text>
+<text x="80" y="255" font-family="DejaVu Sans" font-size="16" font-weight="750" fill="#4b6174" text-anchor="start">SOURCE OR HARNESS ROW</text>
+<text x="899" y="255" font-family="DejaVu Sans" font-size="16" font-weight="750" fill="#4b6174" text-anchor="start">MIC4 TERMINAL</text>
+<g data-kind="mic-terminal" data-mic="4" data-terminal="VDD" data-net="+3V3" data-je-pin="6/12">
+<rect x="77" y="272" width="363" height="37" rx="6" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="89" y="286" width="12" height="12" rx="2" fill="#c62832" stroke="none" stroke-width="1"/>
+<text x="113" y="297" font-family="DejaVu Sans" font-size="18" font-weight="750" fill="#142638" text-anchor="start">+3V3 rail from JE6 / JE12</text>
+<line x1="451" y1="292" x2="877" y2="292" stroke="#c62832" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="451" cy="292" r="5.3" fill="#c62832" stroke="#ffffff" stroke-width="1"/>
+<circle cx="877" cy="292" r="5.3" fill="#c62832" stroke="#ffffff" stroke-width="1"/>
+<text x="900" y="298" font-family="DejaVu Sans Mono" font-size="20" font-weight="750" fill="#142638" text-anchor="start">VDD</text>
+</g>
+<g data-kind="mic-terminal" data-mic="4" data-terminal="GND" data-net="GND" data-je-pin="5/11">
+<rect x="77" y="328" width="363" height="37" rx="6" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="89" y="342" width="12" height="12" rx="2" fill="#11161d" stroke="none" stroke-width="1"/>
+<text x="113" y="353" font-family="DejaVu Sans" font-size="18" font-weight="750" fill="#142638" text-anchor="start">GND rail from JE5 / JE11</text>
+<line x1="451" y1="348" x2="877" y2="348" stroke="#11161d" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="451" cy="348" r="5.3" fill="#11161d" stroke="#ffffff" stroke-width="1"/>
+<circle cx="877" cy="348" r="5.3" fill="#11161d" stroke="#ffffff" stroke-width="1"/>
+<text x="900" y="354" font-family="DejaVu Sans Mono" font-size="20" font-weight="750" fill="#142638" text-anchor="start">GND</text>
+</g>
+<g data-kind="mic-terminal" data-mic="4" data-terminal="SCK" data-net="I2S_SCK" data-je-pin="1">
+<rect x="77" y="384" width="363" height="37" rx="6" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="89" y="398" width="12" height="12" rx="2" fill="#165aca" stroke="none" stroke-width="1"/>
+<text x="113" y="409" font-family="DejaVu Sans" font-size="18" font-weight="750" fill="#142638" text-anchor="start">I2S_SCK bus from JE1 / V12</text>
+<line x1="451" y1="404" x2="877" y2="404" stroke="#165aca" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="451" cy="404" r="5.3" fill="#165aca" stroke="#ffffff" stroke-width="1"/>
+<circle cx="877" cy="404" r="5.3" fill="#165aca" stroke="#ffffff" stroke-width="1"/>
+<text x="900" y="410" font-family="DejaVu Sans Mono" font-size="20" font-weight="750" fill="#142638" text-anchor="start">SCK</text>
+</g>
+<g data-kind="mic-terminal" data-mic="4" data-terminal="WS" data-net="I2S_WS" data-je-pin="2">
+<rect x="77" y="440" width="363" height="37" rx="6" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="89" y="454" width="12" height="12" rx="2" fill="#167338" stroke="none" stroke-width="1"/>
+<text x="113" y="465" font-family="DejaVu Sans" font-size="18" font-weight="750" fill="#142638" text-anchor="start">I2S_WS bus from JE2 / W16</text>
+<line x1="451" y1="460" x2="877" y2="460" stroke="#167338" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="451" cy="460" r="5.3" fill="#167338" stroke="#ffffff" stroke-width="1"/>
+<circle cx="877" cy="460" r="5.3" fill="#167338" stroke="#ffffff" stroke-width="1"/>
+<text x="900" y="466" font-family="DejaVu Sans Mono" font-size="20" font-weight="750" fill="#142638" text-anchor="start">WS</text>
+</g>
+<g data-kind="mic-terminal" data-mic="4" data-terminal="SD" data-net="MIC4_SD" data-je-pin="8">
+<rect x="77" y="496" width="363" height="37" rx="6" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="89" y="510" width="12" height="12" rx="2" fill="#008887" stroke="none" stroke-width="1"/>
+<text x="113" y="521" font-family="DejaVu Sans" font-size="18" font-weight="750" fill="#142638" text-anchor="start">NEW private row: JE8 / U17</text>
+<line x1="451" y1="516" x2="877" y2="516" stroke="#008887" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="451" cy="516" r="5.3" fill="#008887" stroke="#ffffff" stroke-width="1"/>
+<circle cx="877" cy="516" r="5.3" fill="#008887" stroke="#ffffff" stroke-width="1"/>
+<text x="900" y="522" font-family="DejaVu Sans Mono" font-size="20" font-weight="750" fill="#142638" text-anchor="start">SD</text>
+</g>
+<g data-kind="mic-terminal" data-mic="4" data-terminal="L/R" data-net="GND" data-je-pin="5/11">
+<rect x="77" y="552" width="363" height="37" rx="6" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="89" y="566" width="12" height="12" rx="2" fill="#747e89" stroke="none" stroke-width="1"/>
+<text x="113" y="577" font-family="DejaVu Sans" font-size="18" font-weight="750" fill="#142638" text-anchor="start">GND rail from JE5 / JE11</text>
+<line x1="451" y1="572" x2="877" y2="572" stroke="#747e89" stroke-width="4.5" stroke-linecap="round" />
+<circle cx="451" cy="572" r="5.3" fill="#747e89" stroke="#ffffff" stroke-width="1"/>
+<circle cx="877" cy="572" r="5.3" fill="#747e89" stroke="#ffffff" stroke-width="1"/>
+<text x="900" y="578" font-family="DejaVu Sans Mono" font-size="20" font-weight="750" fill="#142638" text-anchor="start">L/R</text>
+</g>
+<circle cx="1278" cy="386" r="102" fill="#25364a" stroke="#759e9c" stroke-width="2"/>
+<circle cx="1278" cy="386" r="94" fill="#1d2d3d" stroke="#486479" stroke-width="1"/>
+<rect x="1250.97" y="358.97" width="54.06" height="54.06" rx="5" fill="#d9e5ea" stroke="#8ba3aa" stroke-width="1.4"/>
+<circle cx="1289.8932" cy="396.27139999999997" r="4.385999999999999" fill="#31465a" stroke="none" stroke-width="1"/>
+<text x="1278" y="521" font-family="DejaVu Sans" font-size="17" font-weight="750" fill="#006d68" text-anchor="middle">MIC4 / LOGICAL VIEW</text>
+<line x1="78" y1="637" x2="1480" y2="637" stroke="#d9e3e9" stroke-width="1.5" stroke-linecap="round" />
+<text x="80" y="674" font-family="DejaVu Sans" font-size="19" font-weight="650" fill="#142638" text-anchor="start">R4  •  100 kΩ from the MIC4_SD row to GND.</text>
+<text x="80" y="710" font-family="DejaVu Sans" font-size="19" font-weight="650" fill="#142638" text-anchor="start">C4  •  100 nF X7R from MIC4 VDD to GND, close to the module.</text>
+<text x="1479" y="710" font-family="DejaVu Sans" font-size="16" font-weight="650" fill="#4b6174" text-anchor="end">Fit only as needed after inspection.</text>
+<rect x="48" y="775" width="1464" height="144" rx="15" fill="#ffffff" stroke="#d9e3e9" stroke-width="1.6"/>
+<text x="78" y="817" font-family="DejaVu Sans" font-size="15" font-weight="750" fill="#006d68" text-anchor="start">POWER OFF TO ADD THE BRANCH</text>
+<text x="78" y="853" font-family="DejaVu Sans" font-size="20" font-weight="650" fill="#142638" text-anchor="start">JE8 is the lower socket, second from the right when facing JE with the PCB below.</text>
+<text x="78" y="886" font-family="DejaVu Sans" font-size="17" font-weight="500" fill="#4b6174" text-anchor="start">Add mic4_sd as an FPGA input and enable its XDC line. Recheck clocks at the farthest module with all four attached.</text>
+<line x1="48" y1="946" x2="1512" y2="946" stroke="#d9e3e9" stroke-width="1.5" stroke-linecap="round" />
+<text x="48" y="975" font-family="DejaVu Sans" font-size="15" font-weight="500" fill="#4b6174" text-anchor="start">MIC4 uses the same left time slot on its own SD line. JE9 and JE10 remain open.</text>
+<text x="1512" y="975" font-family="DejaVu Sans Mono" font-size="15" font-weight="750" fill="#006d68" text-anchor="end">DESIGN 1.0  /  3.3 V ONLY</text>
+</svg>

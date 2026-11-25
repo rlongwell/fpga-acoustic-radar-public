@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "JE_Array")(type "KiCad")(uri "${KIPRJMOD}/je_array.kicad_sym")(options "")(descr "Self-contained JE harness schematic symbols"))
+)

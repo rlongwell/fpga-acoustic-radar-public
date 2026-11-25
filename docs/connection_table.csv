@@ -1,0 +1,13 @@
+Zybo connector,Physical connector pin,FPGA package pin,Signal name,FPGA direction,Microphone destination,Electrical voltage,Notes
+JE,1,V12,I2S_SCK,Output,MIC1-3 SCK (MIC4 optionally),3.3 V logic,Shared 3.072 MHz bit clock
+JE,2,W16,I2S_WS,Output,MIC1-3 WS (MIC4 optionally),3.3 V logic,Shared 48 kHz word select
+JE,3,J15,MIC1_SD,Input,MIC1 SD,3.3 V logic,Private net with R1 to GND
+JE,4,H15,MIC2_SD,Input,MIC2 SD,3.3 V logic,Private net with R2 to GND
+JE,5,—,GND,Return,Common rail to MIC1-3 GND and L/R,0 V,Internally common with JE11
+JE,6,—,+3V3,Power out,Common rail to MIC1-3 VDD,3.3 V DC,Internally common with JE12
+JE,7,V13,MIC3_SD,Input,MIC3 SD,3.3 V logic,Private net with R3 to GND
+JE,8,U17,MIC4_SD,Input (optional),MIC4 SD (optional),3.3 V logic,Leave open for three microphones; R4 to GND when fitted
+JE,9,T17,NC,Unused,No connection,3.3 V GPIO capability,Leave open
+JE,10,Y17,NC,Unused,No connection,3.3 V GPIO capability,Leave open
+JE,11,—,GND,Return,Same common rail; MIC4 GND and L/R when fitted,0 V,Internally common with JE5
+JE,12,—,+3V3,Power out,Same common rail; MIC4 VDD when fitted,3.3 V DC,Internally common with JE6

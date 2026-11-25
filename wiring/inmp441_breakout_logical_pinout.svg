@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1000" viewBox="0 0 1560 1000" role="img"><title>INMP441 breakout terminals</title><desc>Logical identification guide for all modules. The arrangement here is not a physical pad map.</desc>
+<rect x="0" y="0" width="1560" height="1000" rx="0" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="1560" height="143" rx="0" fill="#142638" stroke="none" stroke-width="1"/>
+<text x="48" y="38" font-family="DejaVu Sans" font-size="16" font-weight="750" fill="#80d7ce" text-anchor="start">ZYBO Z7-20   /   PMOD JE   /   INMP441</text>
+<text x="48" y="94" font-family="DejaVu Sans" font-size="44" font-weight="750" fill="#ffffff" text-anchor="start">INMP441 breakout terminals</text>
+<text x="50" y="124" font-family="DejaVu Sans" font-size="17" font-weight="500" fill="#d5e4ed" text-anchor="start">Logical identification guide for all modules. The arrangement here is not a physical pad map.</text>
+<text x="1510" y="50" font-family="DejaVu Sans Mono" font-size="18" font-weight="750" fill="#a8bccc" text-anchor="end">03 / MODULE</text>
+<rect x="48" y="173" width="495" height="711" rx="15" fill="#ffffff" stroke="#d9e3e9" stroke-width="1.6"/>
+<text x="76" y="215" font-family="DejaVu Sans" font-size="15" font-weight="750" fill="#006d68" text-anchor="start">CIRCULAR BREAKOUT / SYMBOL ONLY</text>
+<circle cx="295" cy="440" r="145" fill="#25364a" stroke="#759e9c" stroke-width="2"/>
+<circle cx="295" cy="440" r="137" fill="#1d2d3d" stroke="#486479" stroke-width="1"/>
+<rect x="256.575" y="401.575" width="76.85000000000001" height="76.85000000000001" rx="5" fill="#d9e5ea" stroke="#8ba3aa" stroke-width="1.4"/>
+<circle cx="311.907" cy="454.6015" r="6.234999999999999" fill="#31465a" stroke="none" stroke-width="1"/>
+<text x="295" y="630" font-family="DejaVu Sans" font-size="21" font-weight="750" fill="#006d68" text-anchor="middle">PAD LOCATIONS OMITTED</text>
+<text x="76" y="700" font-family="DejaVu Sans" font-size="17" font-weight="750" fill="#142638" text-anchor="start">Photograph both sides of an actual module.</text>
+<text x="76" y="731" font-family="DejaVu Sans" font-size="16" font-weight="500" fill="#4b6174" text-anchor="start">Include all six labels, the component area,</text>
+<text x="76" y="758" font-family="DejaVu Sans" font-size="16" font-weight="500" fill="#4b6174" text-anchor="start">and a common landmark to match the two faces.</text>
+<text x="76" y="799" font-family="DejaVu Sans" font-size="16" font-weight="500" fill="#4b6174" text-anchor="start">Use the silkscreen and continuity checks before</text>
+<text x="76" y="826" font-family="DejaVu Sans" font-size="16" font-weight="500" fill="#4b6174" text-anchor="start">connecting power. Keep the sound port clear.</text>
+<rect x="570" y="173" width="942" height="711" rx="15" fill="#ffffff" stroke="#d9e3e9" stroke-width="1.6"/>
+<text x="599" y="215" font-family="DejaVu Sans" font-size="15" font-weight="750" fill="#006d68" text-anchor="start">READ THE PRINTED LABEL ON EACH PCB</text>
+<rect x="596" y="244" width="888" height="74" rx="8" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="596" y="244" width="7" height="74" rx="3" fill="#c62832" stroke="none" stroke-width="1"/>
+<text x="619" y="275" font-family="DejaVu Sans Mono" font-size="23" font-weight="750" fill="#142638" text-anchor="start">VDD</text>
+<text x="727" y="275" font-family="DejaVu Sans Mono" font-size="16" font-weight="650" fill="#4b6174" text-anchor="start">3V / 3V3</text>
+<text x="619" y="303" font-family="DejaVu Sans" font-size="17" font-weight="500" fill="#4b6174" text-anchor="start">3.3 V from JE6/12. Local 100 nF to GND if needed.</text>
+<rect x="596" y="335" width="888" height="74" rx="8" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="596" y="335" width="7" height="74" rx="3" fill="#11161d" stroke="none" stroke-width="1"/>
+<text x="619" y="366" font-family="DejaVu Sans Mono" font-size="23" font-weight="750" fill="#142638" text-anchor="start">GND</text>
+<text x="727" y="366" font-family="DejaVu Sans Mono" font-size="16" font-weight="650" fill="#4b6174" text-anchor="start">GND</text>
+<text x="619" y="394" font-family="DejaVu Sans" font-size="17" font-weight="500" fill="#4b6174" text-anchor="start">Common ground from JE5/11.</text>
+<rect x="596" y="426" width="888" height="74" rx="8" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="596" y="426" width="7" height="74" rx="3" fill="#165aca" stroke="none" stroke-width="1"/>
+<text x="619" y="457" font-family="DejaVu Sans Mono" font-size="23" font-weight="750" fill="#142638" text-anchor="start">SCK</text>
+<text x="727" y="457" font-family="DejaVu Sans Mono" font-size="16" font-weight="650" fill="#4b6174" text-anchor="start">BCLK</text>
+<text x="619" y="485" font-family="DejaVu Sans" font-size="17" font-weight="500" fill="#4b6174" text-anchor="start">Shared 3.072 MHz clock from JE1.</text>
+<rect x="596" y="517" width="888" height="74" rx="8" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="596" y="517" width="7" height="74" rx="3" fill="#167338" stroke="none" stroke-width="1"/>
+<text x="619" y="548" font-family="DejaVu Sans Mono" font-size="23" font-weight="750" fill="#142638" text-anchor="start">WS</text>
+<text x="727" y="548" font-family="DejaVu Sans Mono" font-size="16" font-weight="650" fill="#4b6174" text-anchor="start">LRCLK</text>
+<text x="619" y="576" font-family="DejaVu Sans" font-size="17" font-weight="500" fill="#4b6174" text-anchor="start">Shared 48 kHz word select from JE2.</text>
+<rect x="596" y="608" width="888" height="74" rx="8" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="596" y="608" width="7" height="74" rx="3" fill="#e5b605" stroke="none" stroke-width="1"/>
+<text x="619" y="639" font-family="DejaVu Sans Mono" font-size="23" font-weight="750" fill="#142638" text-anchor="start">SD</text>
+<text x="727" y="639" font-family="DejaVu Sans Mono" font-size="16" font-weight="650" fill="#4b6174" text-anchor="start">DOUT</text>
+<text x="619" y="667" font-family="DejaVu Sans" font-size="17" font-weight="500" fill="#4b6174" text-anchor="start">Own JE input: MIC1=3, MIC2=4, MIC3=7, MIC4=8.</text>
+<rect x="596" y="699" width="888" height="74" rx="8" fill="#f2f6f8" stroke="none" stroke-width="1"/>
+<rect x="596" y="699" width="7" height="74" rx="3" fill="#747e89" stroke="none" stroke-width="1"/>
+<text x="619" y="730" font-family="DejaVu Sans Mono" font-size="23" font-weight="750" fill="#142638" text-anchor="start">L/R</text>
+<text x="727" y="730" font-family="DejaVu Sans Mono" font-size="16" font-weight="650" fill="#4b6174" text-anchor="start">SEL</text>
+<text x="619" y="758" font-family="DejaVu Sans" font-size="17" font-weight="500" fill="#4b6174" text-anchor="start">Tie directly to GND (0 V) for the left slot.</text>
+<text x="599" y="824" font-family="DejaVu Sans" font-size="17" font-weight="650" fill="#142638" text-anchor="start">Each SD needs one 100 kΩ pull-down to GND unless verified on the module.</text>
+<line x1="48" y1="946" x2="1512" y2="946" stroke="#d9e3e9" stroke-width="1.5" stroke-linecap="round" />
+<text x="48" y="975" font-family="DejaVu Sans" font-size="15" font-weight="500" fill="#4b6174" text-anchor="start">Terminal names are logical. Datasheet package pin numbers do not identify the breakout PCB pads.</text>
+<text x="1512" y="975" font-family="DejaVu Sans Mono" font-size="15" font-weight="750" fill="#006d68" text-anchor="end">DESIGN 1.0  /  3.3 V ONLY</text>
+</svg>

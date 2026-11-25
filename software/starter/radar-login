@@ -1,0 +1,5 @@
+#!/bin/sh
+[ "$1" = -- ] && shift
+[ "$1" = root ] || exit 1
+export PATH=/bin PS1='# '
+exec /bin/sh -i

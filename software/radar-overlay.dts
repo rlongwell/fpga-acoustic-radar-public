@@ -1,0 +1,18 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+    fragment@0 {
+        target-path = "/axi";
+        __overlay__ {
+            #address-cells = <1>;
+            #size-cells = <1>;
+            acoustic-radar@43c00000 {
+                compatible = "generic-uio";
+                linux,uio-name = "acoustic-radar";
+                reg = <0x43c00000 0x00040000>;
+                status = "okay";
+            };
+        };
+    };
+};

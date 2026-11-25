@@ -1,0 +1,1723 @@
+{
+  "source": "User confirms phone playing right of MIC3/MIC6, expected about 90 degrees",
+  "summary": {
+    "frame_count": 80,
+    "dropped_max": 0,
+    "all_zero_channels": [
+      2
+    ],
+    "channel_energy_median": [
+      12113675.5,
+      0.0,
+      11505795.0,
+      9586246.5,
+      11688651.0,
+      11723408.5
+    ],
+    "loud_windows": 23,
+    "valid_loud_windows": 21,
+    "valid_loud_within_20_of_right": 21,
+    "loud_median_error": 1,
+    "valid_loud_median_angle": 90,
+    "swapped_loud_median_error": 147,
+    "angle_counts": {
+      "100": 6,
+      "90": 12,
+      "80": 3
+    }
+  },
+  "pair_lags": [
+    {
+      "mics": [
+        1,
+        3
+      ],
+      "expected_right_lag": -10.08,
+      "observed_peak_lag": -9,
+      "correlation": 0.516
+    },
+    {
+      "mics": [
+        1,
+        4
+      ],
+      "expected_right_lag": 0.0,
+      "observed_peak_lag": 0,
+      "correlation": 0.58
+    },
+    {
+      "mics": [
+        1,
+        5
+      ],
+      "expected_right_lag": -5.04,
+      "observed_peak_lag": -5,
+      "correlation": 0.521
+    },
+    {
+      "mics": [
+        1,
+        6
+      ],
+      "expected_right_lag": -10.08,
+      "observed_peak_lag": -9,
+      "correlation": 0.517
+    },
+    {
+      "mics": [
+        3,
+        4
+      ],
+      "expected_right_lag": 10.08,
+      "observed_peak_lag": 9,
+      "correlation": 0.467
+    },
+    {
+      "mics": [
+        3,
+        5
+      ],
+      "expected_right_lag": 5.04,
+      "observed_peak_lag": 4,
+      "correlation": 0.498
+    },
+    {
+      "mics": [
+        3,
+        6
+      ],
+      "expected_right_lag": 0.0,
+      "observed_peak_lag": 0,
+      "correlation": 0.648
+    },
+    {
+      "mics": [
+        4,
+        5
+      ],
+      "expected_right_lag": -5.04,
+      "observed_peak_lag": -5,
+      "correlation": 0.544
+    },
+    {
+      "mics": [
+        4,
+        6
+      ],
+      "expected_right_lag": -10.08,
+      "observed_peak_lag": -9,
+      "correlation": 0.519
+    },
+    {
+      "mics": [
+        5,
+        6
+      ],
+      "expected_right_lag": -5.04,
+      "observed_peak_lag": -4,
+      "correlation": 0.543
+    }
+  ],
+  "frames": [
+    {
+      "sequence": 1,
+      "energy": [
+        8766261,
+        0,
+        6808300,
+        6655745,
+        12009029,
+        4188466
+      ],
+      "angle": 83,
+      "valid": false,
+      "peak": 0.0626104068971694,
+      "prominence": 0.004346280798508295,
+      "right_score": 0.046493423016000526,
+      "left_score": 0.029211909735772805,
+      "swapped_angle": 98,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 3,
+      "energy": [
+        7928316,
+        0,
+        3533321,
+        9531621,
+        4518377,
+        6633208
+      ],
+      "angle": 277,
+      "valid": false,
+      "peak": 0.021480171324667487,
+      "prominence": 0.0028609824302240697,
+      "right_score": -0.007038405913546533,
+      "left_score": -0.011113151672367481,
+      "swapped_angle": 231,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 5,
+      "energy": [
+        207891570,
+        0,
+        235304419,
+        235030699,
+        211567679,
+        241528528
+      ],
+      "angle": 97,
+      "valid": true,
+      "peak": 0.14846976014129515,
+      "prominence": 0.09279759986067082,
+      "right_score": 0.1433667730309221,
+      "left_score": 0.04120199260806684,
+      "swapped_angle": 231,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 8,
+      "energy": [
+        12736750,
+        0,
+        13455169,
+        8204966,
+        11685845,
+        16793969
+      ],
+      "angle": 90,
+      "valid": false,
+      "peak": 0.09278712609903357,
+      "prominence": 0.01607504592813143,
+      "right_score": 0.09278712609903357,
+      "left_score": 0.010839971534170444,
+      "swapped_angle": 124,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 10,
+      "energy": [
+        21248714,
+        0,
+        32867505,
+        17068706,
+        20947615,
+        36427874
+      ],
+      "angle": 119,
+      "valid": false,
+      "peak": 0.16172530371432117,
+      "prominence": 0.022307748547046452,
+      "right_score": -0.000984825876357281,
+      "left_score": 0.0854617662588095,
+      "swapped_angle": 124,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 12,
+      "energy": [
+        48627287,
+        0,
+        127862411,
+        69085040,
+        72263809,
+        126097625
+      ],
+      "angle": 60,
+      "valid": false,
+      "peak": 0.15864836892669826,
+      "prominence": 0.021395461919436726,
+      "right_score": 0.10822983861711166,
+      "left_score": 0.13160625329997022,
+      "swapped_angle": 59,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 15,
+      "energy": [
+        9838479,
+        0,
+        15394382,
+        9835069,
+        11823683,
+        14877923
+      ],
+      "angle": 123,
+      "valid": false,
+      "peak": 0.1284907012023908,
+      "prominence": 0.0015913983974349677,
+      "right_score": 0.10181125318518862,
+      "left_score": 0.08774591951516268,
+      "swapped_angle": 124,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 17,
+      "energy": [
+        5254833,
+        0,
+        4714702,
+        4044211,
+        5035134,
+        6178803
+      ],
+      "angle": 51,
+      "valid": false,
+      "peak": 0.040400174167483746,
+      "prominence": 0.0026829500449888424,
+      "right_score": 0.037717224122494904,
+      "left_score": 0.024928261518330618,
+      "swapped_angle": 83,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 19,
+      "energy": [
+        216859466,
+        0,
+        262121676,
+        225541076,
+        219125297,
+        267607271
+      ],
+      "angle": 97,
+      "valid": true,
+      "peak": 0.2570836507152904,
+      "prominence": 0.1186959805850662,
+      "right_score": 0.22416840752048856,
+      "left_score": 0.07007874015748032,
+      "swapped_angle": 231,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 22,
+      "energy": [
+        10555072,
+        0,
+        13552581,
+        9251927,
+        9606246,
+        14759895
+      ],
+      "angle": 97,
+      "valid": true,
+      "peak": 0.17475287383801114,
+      "prominence": 0.049802594507496814,
+      "right_score": 0.14879364569224768,
+      "left_score": 0.08298707559514244,
+      "swapped_angle": 231,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 24,
+      "energy": [
+        91144171,
+        0,
+        135778052,
+        114882504,
+        102010365,
+        126781478
+      ],
+      "angle": 97,
+      "valid": true,
+      "peak": 0.350328839572224,
+      "prominence": 0.14706904296516715,
+      "right_score": 0.33538945386928676,
+      "left_score": 0.20325979660705684,
+      "swapped_angle": 124,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 27,
+      "energy": [
+        15857700,
+        0,
+        14399796,
+        13072430,
+        13942229,
+        15199008
+      ],
+      "angle": 98,
+      "valid": true,
+      "peak": 0.21118952390609053,
+      "prominence": 0.055944349617182615,
+      "right_score": 0.1987580634053397,
+      "left_score": 0.06982851633341752,
+      "swapped_angle": 128,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 29,
+      "energy": [
+        16282936,
+        0,
+        26399330,
+        17070362,
+        16413259,
+        26308584
+      ],
+      "angle": 123,
+      "valid": false,
+      "peak": 0.163486826301157,
+      "prominence": 0.016205874212967902,
+      "right_score": 0.10182961823649599,
+      "left_score": 0.05496889419434816,
+      "swapped_angle": 127,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 31,
+      "energy": [
+        6253549,
+        0,
+        6997031,
+        5547657,
+        5617540,
+        7597381
+      ],
+      "angle": 97,
+      "valid": true,
+      "peak": 0.15393277035958752,
+      "prominence": 0.0601266058738395,
+      "right_score": 0.1356534514818301,
+      "left_score": 0.060558756686026484,
+      "swapped_angle": 230,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 34,
+      "energy": [
+        10103311,
+        0,
+        6647801,
+        5637275,
+        6040123,
+        7391929
+      ],
+      "angle": 67,
+      "valid": false,
+      "peak": 0.09914723786533644,
+      "prominence": 0.007515737737288475,
+      "right_score": 0.06693372512109459,
+      "left_score": 0.014978994972567194,
+      "swapped_angle": 61,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 36,
+      "energy": [
+        4441157,
+        0,
+        3870679,
+        3985158,
+        4123731,
+        4298103
+      ],
+      "angle": 120,
+      "valid": false,
+      "peak": 0.019154177291786638,
+      "prominence": 0.0007367195169011159,
+      "right_score": 0.015520763986134398,
+      "left_score": -0.0033516218635936007,
+      "swapped_angle": 123,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 38,
+      "energy": [
+        5095486,
+        0,
+        4229484,
+        4613516,
+        4511628,
+        4822593
+      ],
+      "angle": 70,
+      "valid": false,
+      "peak": 0.06381366068876093,
+      "prominence": 6.36787817358958e-05,
+      "right_score": 0.06367851977686463,
+      "left_score": 0.009641651936365053,
+      "swapped_angle": 120,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 41,
+      "energy": [
+        5514312,
+        0,
+        4237026,
+        4363530,
+        4741329,
+        5080040
+      ],
+      "angle": 105,
+      "valid": false,
+      "peak": 0.11281435218266371,
+      "prominence": 0.0111202019734703,
+      "right_score": 0.1062096829733018,
+      "left_score": -0.005713826588003048,
+      "swapped_angle": 109,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 43,
+      "energy": [
+        6161876,
+        0,
+        4055529,
+        4179232,
+        4724698,
+        4939288
+      ],
+      "angle": 105,
+      "valid": false,
+      "peak": 0.09414703880169724,
+      "prominence": 0.004441774705625193,
+      "right_score": 0.08120336998691491,
+      "left_score": -0.011744450311058077,
+      "swapped_angle": 138,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 46,
+      "energy": [
+        4279729,
+        0,
+        3689418,
+        3860103,
+        4068478,
+        3999041
+      ],
+      "angle": 42,
+      "valid": false,
+      "peak": 0.028483511568840176,
+      "prominence": 0.003212248045531191,
+      "right_score": 0.020293381694635113,
+      "left_score": -0.000690985055439521,
+      "swapped_angle": 97,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 48,
+      "energy": [
+        5874592,
+        0,
+        4882730,
+        4771525,
+        5112117,
+        4907308
+      ],
+      "angle": 90,
+      "valid": false,
+      "peak": 0.1264915865108698,
+      "prominence": 0.021845021728996633,
+      "right_score": 0.1264915865108698,
+      "left_score": 0.006448428640297511,
+      "swapped_angle": 97,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 50,
+      "energy": [
+        5475178,
+        0,
+        3502683,
+        3887847,
+        4155683,
+        3938632
+      ],
+      "angle": 297,
+      "valid": false,
+      "peak": 0.014867348562098143,
+      "prominence": 0.0013349979462004263,
+      "right_score": 0.0020339294322903557,
+      "left_score": -0.001097311815614891,
+      "swapped_angle": 301,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 53,
+      "energy": [
+        13765191,
+        0,
+        7931731,
+        6369552,
+        9528600,
+        9359527
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.3405270769725213,
+      "prominence": 0.08444419312126494,
+      "right_score": 0.3405270769725213,
+      "left_score": 0.028413030003902544,
+      "swapped_angle": 90,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 55,
+      "energy": [
+        4610551,
+        0,
+        4304291,
+        4245316,
+        4485579,
+        4657302
+      ],
+      "angle": 104,
+      "valid": false,
+      "peak": 0.11045710167465128,
+      "prominence": 0.011553559765491633,
+      "right_score": 0.1078740157480315,
+      "left_score": 0.008101283257960088,
+      "swapped_angle": 129,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 57,
+      "energy": [
+        6168980,
+        0,
+        5461925,
+        4862803,
+        5621347,
+        5801716
+      ],
+      "angle": 105,
+      "valid": false,
+      "peak": 0.2103870674206132,
+      "prominence": 0.02381634365198443,
+      "right_score": 0.20978857234682396,
+      "left_score": 0.0788595303138128,
+      "swapped_angle": 109,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 60,
+      "energy": [
+        7046829,
+        0,
+        6491869,
+        6674095,
+        8682720,
+        7144973
+      ],
+      "angle": 83,
+      "valid": true,
+      "peak": 0.25791364644773684,
+      "prominence": 0.055060773221294323,
+      "right_score": 0.23972131034641078,
+      "left_score": -0.02067445650926289,
+      "swapped_angle": 74,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 62,
+      "energy": [
+        7920220,
+        0,
+        3786755,
+        4137804,
+        4330254,
+        4271583
+      ],
+      "angle": 316,
+      "valid": false,
+      "peak": 0.020664352120732175,
+      "prominence": 0.006272169771066675,
+      "right_score": 0.0025412639746562257,
+      "left_score": -0.00896444066940615,
+      "swapped_angle": 250,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 65,
+      "energy": [
+        20129394,
+        0,
+        3640357,
+        3798358,
+        4172988,
+        4414611
+      ],
+      "angle": 31,
+      "valid": false,
+      "peak": 0.03412731844042943,
+      "prominence": 0.0018622189248076529,
+      "right_score": 0.03226509951562178,
+      "left_score": 0.024558664860769956,
+      "swapped_angle": 270,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 67,
+      "energy": [
+        21246202,
+        0,
+        13484186,
+        12188131,
+        18564441,
+        14332728
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.469355616262253,
+      "prominence": 0.12560758241866626,
+      "right_score": 0.469355616262253,
+      "left_score": 0.04852046555405065,
+      "swapped_angle": 90,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 69,
+      "energy": [
+        6100661,
+        0,
+        3837074,
+        4254271,
+        4619765,
+        4480199
+      ],
+      "angle": 277,
+      "valid": false,
+      "peak": 0.06266915110394898,
+      "prominence": 0.00606421776071131,
+      "right_score": 0.030749982782764418,
+      "left_score": 0.022315832969858354,
+      "swapped_angle": 354,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 72,
+      "energy": [
+        5055462,
+        0,
+        4044920,
+        4208503,
+        4777520,
+        4619026
+      ],
+      "angle": 105,
+      "valid": false,
+      "peak": 0.09707525075439692,
+      "prominence": 0.002407282229988303,
+      "right_score": 0.0853860104221666,
+      "left_score": 0.0050710497922453425,
+      "swapped_angle": 83,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 74,
+      "energy": [
+        4742685,
+        0,
+        3617656,
+        4145317,
+        4532460,
+        4294123
+      ],
+      "angle": 135,
+      "valid": false,
+      "peak": 0.048817917857983686,
+      "prominence": 0.01034404399899768,
+      "right_score": 0.020897132756364612,
+      "left_score": 0.0016115332522210028,
+      "swapped_angle": 130,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 76,
+      "energy": [
+        24708225,
+        0,
+        3648008,
+        3957094,
+        4349900,
+        4045357
+      ],
+      "angle": 129,
+      "valid": false,
+      "peak": 0.02940808198035256,
+      "prominence": 0.0018116734895048843,
+      "right_score": 0.010654025389683425,
+      "left_score": -0.003930120979775508,
+      "swapped_angle": 83,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 79,
+      "energy": [
+        4228477,
+        0,
+        3851101,
+        4046034,
+        3939425,
+        4138445
+      ],
+      "angle": 321,
+      "valid": false,
+      "peak": 0.01748945884275769,
+      "prominence": 0.0011425976448516777,
+      "right_score": 0.007754642914533644,
+      "left_score": -0.0009894171391841508,
+      "swapped_angle": 97,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 81,
+      "energy": [
+        6076128,
+        0,
+        3477284,
+        4113986,
+        3943049,
+        3980324
+      ],
+      "angle": 224,
+      "valid": false,
+      "peak": 0.020274540973166878,
+      "prominence": 0.0017180423299723475,
+      "right_score": 0.010337228254631447,
+      "left_score": -0.008636165377287053,
+      "swapped_angle": 44,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 84,
+      "energy": [
+        4656827,
+        0,
+        3340199,
+        3858981,
+        3865941,
+        4026600
+      ],
+      "angle": 262,
+      "valid": false,
+      "peak": 0.022352220834964055,
+      "prominence": 5.354648059688327e-06,
+      "right_score": -0.005941094097931641,
+      "left_score": -0.021902619315442743,
+      "swapped_angle": 354,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 86,
+      "energy": [
+        5728048,
+        0,
+        3677390,
+        3668529,
+        3957483,
+        3847816
+      ],
+      "angle": 316,
+      "valid": false,
+      "peak": 0.01844358662372458,
+      "prominence": 0.00319113278436833,
+      "right_score": 0.002791487798719042,
+      "left_score": -0.012185211542434782,
+      "swapped_angle": 224,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 88,
+      "energy": [
+        6723477,
+        0,
+        3419662,
+        3813623,
+        4223075,
+        4175898
+      ],
+      "angle": 38,
+      "valid": false,
+      "peak": 0.02211804038628135,
+      "prominence": 0.0019170081799059595,
+      "right_score": 0.019618466059089575,
+      "left_score": -0.006345125226693643,
+      "swapped_angle": 297,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 91,
+      "energy": [
+        4824114,
+        0,
+        3289902,
+        3787664,
+        4008182,
+        4039413
+      ],
+      "angle": 42,
+      "valid": false,
+      "peak": 0.02366733453114829,
+      "prominence": 0.0012798911812347095,
+      "right_score": 0.008672895479901757,
+      "left_score": -0.010300498152016741,
+      "swapped_angle": 321,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 93,
+      "energy": [
+        4974647,
+        0,
+        3314487,
+        3792675,
+        4008173,
+        4125968
+      ],
+      "angle": 240,
+      "valid": false,
+      "peak": 0.023795138846040505,
+      "prominence": 0.0024227713353763766,
+      "right_score": 0.008601730906085719,
+      "left_score": -0.010323454466150966,
+      "swapped_angle": 222,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 95,
+      "energy": [
+        10647720,
+        0,
+        12545266,
+        9097199,
+        11691457,
+        12500599
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.529912077316866,
+      "prominence": 0.26215838935781777,
+      "right_score": 0.529912077316866,
+      "left_score": -0.02989141663414523,
+      "swapped_angle": 240,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 98,
+      "energy": [
+        16487797,
+        0,
+        19638731,
+        18282722,
+        23053580,
+        23319196
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.535669520901724,
+      "prominence": 0.2907733605268867,
+      "right_score": 0.535669520901724,
+      "left_score": 0.06317118523449874,
+      "swapped_angle": 241,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 100,
+      "energy": [
+        29315084,
+        0,
+        30907342,
+        18173492,
+        23627532,
+        25768569
+      ],
+      "angle": 97,
+      "valid": true,
+      "peak": 0.6770347331990418,
+      "prominence": 0.32108619262380284,
+      "right_score": 0.6711439131333072,
+      "left_score": -0.031227474116755825,
+      "swapped_angle": 238,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 103,
+      "energy": [
+        10538279,
+        0,
+        11663178,
+        10925410,
+        12274581,
+        11661541
+      ],
+      "angle": 91,
+      "valid": true,
+      "peak": 0.4853659657042555,
+      "prominence": 0.28202547752651536,
+      "right_score": 0.48510823902114286,
+      "left_score": 0.003167971350519952,
+      "swapped_angle": 239,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 105,
+      "energy": [
+        24993151,
+        0,
+        28860950,
+        24164398,
+        16776734,
+        29726997
+      ],
+      "angle": 91,
+      "valid": true,
+      "peak": 0.5772559852101014,
+      "prominence": 0.34099424537907946,
+      "right_score": 0.5771263285966806,
+      "left_score": 0.007366681205665615,
+      "swapped_angle": 237,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 107,
+      "energy": [
+        14564660,
+        0,
+        22865110,
+        17201671,
+        26574497,
+        23442493
+      ],
+      "angle": 97,
+      "valid": true,
+      "peak": 0.515675573479663,
+      "prominence": 0.22723267192922358,
+      "right_score": 0.5118270930419413,
+      "left_score": 0.01022474231537383,
+      "swapped_angle": 240,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 110,
+      "energy": [
+        31046935,
+        0,
+        39023751,
+        36295392,
+        35966651,
+        33423559
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.6085627051720577,
+      "prominence": 0.3589580187702583,
+      "right_score": 0.6085627051720577,
+      "left_score": 0.09081288308349214,
+      "swapped_angle": 237,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 112,
+      "energy": [
+        30584731,
+        0,
+        22394223,
+        20515460,
+        28509435,
+        35045336
+      ],
+      "angle": 97,
+      "valid": true,
+      "peak": 0.5376682594717906,
+      "prominence": 0.3165666357315053,
+      "right_score": 0.5070774316475747,
+      "left_score": 0.0966231261908588,
+      "swapped_angle": 232,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 114,
+      "energy": [
+        32687366,
+        0,
+        29071873,
+        34142464,
+        39639973,
+        30153190
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.3336723215720484,
+      "prominence": 0.1983615275922172,
+      "right_score": 0.3336723215720484,
+      "left_score": 0.0628497968366199,
+      "swapped_angle": 237,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 117,
+      "energy": [
+        81811182,
+        0,
+        115823470,
+        54629953,
+        55178910,
+        80467322
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.702435664929639,
+      "prominence": 0.4288639781503334,
+      "right_score": 0.702435664929639,
+      "left_score": 0.02427859782833266,
+      "swapped_angle": 243,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 119,
+      "energy": [
+        50704155,
+        0,
+        55852498,
+        37525765,
+        41874864,
+        47492711
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.6406969536971144,
+      "prominence": 0.39608906246289516,
+      "right_score": 0.6406969536971144,
+      "left_score": 0.146135304515507,
+      "swapped_angle": 239,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 122,
+      "energy": [
+        43139959,
+        0,
+        61770562,
+        35580790,
+        27113814,
+        50342889
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.5985170221069305,
+      "prominence": 0.41135110291992655,
+      "right_score": 0.5985170221069305,
+      "left_score": 0.052165928238562,
+      "swapped_angle": 241,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 124,
+      "energy": [
+        37527628,
+        0,
+        24938825,
+        36304810,
+        58776533,
+        26948823
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.4973416588232594,
+      "prominence": 0.2677021292512645,
+      "right_score": 0.4973416588232594,
+      "left_score": -0.008053074998278283,
+      "swapped_angle": 246,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 126,
+      "energy": [
+        21259435,
+        0,
+        25806018,
+        20307793,
+        25566112,
+        23685977
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.4867909368471798,
+      "prominence": 0.22012015452194023,
+      "right_score": 0.4867909368471798,
+      "left_score": 0.016868299625812107,
+      "swapped_angle": 237,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 129,
+      "energy": [
+        13231221,
+        0,
+        11348412,
+        10814213,
+        12858642,
+        12869424
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.4600743784577948,
+      "prominence": 0.1996906105536918,
+      "right_score": 0.4600743784577948,
+      "left_score": 0.04038015656206235,
+      "swapped_angle": 75,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 131,
+      "energy": [
+        14452053,
+        0,
+        4865289,
+        5595151,
+        5145786,
+        5157841
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.16414223732237554,
+      "prominence": 0.07846285553838919,
+      "right_score": 0.16414223732237554,
+      "left_score": 0.03186106838685977,
+      "swapped_angle": 250,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 133,
+      "energy": [
+        36282191,
+        0,
+        13290176,
+        13998140,
+        15210671,
+        14342301
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.49718785151856026,
+      "prominence": 0.2764927343265769,
+      "right_score": 0.49718785151856026,
+      "left_score": 0.03217786552191176,
+      "swapped_angle": 238,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 136,
+      "energy": [
+        72491775,
+        0,
+        83326866,
+        69201986,
+        76559533,
+        76013725
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.5934712242602329,
+      "prominence": 0.333484414592615,
+      "right_score": 0.5934712242602329,
+      "left_score": 0.056125892426711975,
+      "swapped_angle": 243,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 138,
+      "energy": [
+        10616540,
+        0,
+        9472794,
+        10074162,
+        9595169,
+        11481683
+      ],
+      "angle": 97,
+      "valid": true,
+      "peak": 0.3528213748825437,
+      "prominence": 0.18998472089415458,
+      "right_score": 0.3503615619476138,
+      "left_score": 0.041626684419549566,
+      "swapped_angle": 230,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 141,
+      "energy": [
+        9877954,
+        0,
+        10627052,
+        8857116,
+        8762053,
+        9060367
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.47289777553316037,
+      "prominence": 0.3204157569520873,
+      "right_score": 0.47289777553316037,
+      "left_score": -0.024521934758155253,
+      "swapped_angle": 243,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 143,
+      "energy": [
+        24867609,
+        0,
+        21863811,
+        22969850,
+        36708065,
+        21228143
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.6220793829342762,
+      "prominence": 0.38635980453674557,
+      "right_score": 0.6220793829342762,
+      "left_score": 0.046100870044305645,
+      "swapped_angle": 237,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 145,
+      "energy": [
+        11037741,
+        0,
+        8060976,
+        9640872,
+        13659692,
+        8559319
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.372277955051537,
+      "prominence": 0.2493518561217831,
+      "right_score": 0.372277955051537,
+      "left_score": 0.01426505360299345,
+      "swapped_angle": 344,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 148,
+      "energy": [
+        24803531,
+        0,
+        29412383,
+        23270176,
+        29592490,
+        36217438
+      ],
+      "angle": 89,
+      "valid": true,
+      "peak": 0.6927136787729536,
+      "prominence": 0.2764149296779613,
+      "right_score": 0.6926539794770552,
+      "left_score": 0.018743830490576402,
+      "swapped_angle": 249,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 150,
+      "energy": [
+        6881702,
+        0,
+        6950677,
+        7220941,
+        7268080,
+        7367273
+      ],
+      "angle": 89,
+      "valid": true,
+      "peak": 0.2402001735462675,
+      "prominence": 0.09356706287347291,
+      "right_score": 0.23998989922178096,
+      "left_score": -0.002612428548472265,
+      "swapped_angle": 249,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 152,
+      "energy": [
+        13185017,
+        0,
+        16745727,
+        12594439,
+        18032845,
+        16185274
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.5977663506347421,
+      "prominence": 0.21744100386404963,
+      "right_score": 0.5977663506347421,
+      "left_score": -0.018002341544041723,
+      "swapped_angle": 249,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 155,
+      "energy": [
+        20656587,
+        0,
+        28868085,
+        20603595,
+        24457108,
+        20886772
+      ],
+      "angle": 83,
+      "valid": true,
+      "peak": 0.5995720817423681,
+      "prominence": 0.2897974040156648,
+      "right_score": 0.5887468148114139,
+      "left_score": 0.025428709166456252,
+      "swapped_angle": 254,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 157,
+      "energy": [
+        41700080,
+        0,
+        39431664,
+        36821830,
+        50241454,
+        53460242
+      ],
+      "angle": 83,
+      "valid": true,
+      "peak": 0.7278373996536911,
+      "prominence": 0.3986502303133347,
+      "right_score": 0.7169210991483209,
+      "left_score": 0.21842473772411108,
+      "swapped_angle": 249,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 159,
+      "energy": [
+        26433232,
+        0,
+        20748338,
+        23249169,
+        34010059,
+        30587701
+      ],
+      "angle": 83,
+      "valid": true,
+      "peak": 0.6367382258891692,
+      "prominence": 0.33097368025727,
+      "right_score": 0.6291614058446776,
+      "left_score": 0.10265604554532722,
+      "swapped_angle": 119,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 162,
+      "energy": [
+        30124057,
+        0,
+        63975874,
+        35075795,
+        52786260,
+        61180820
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.7114322444388329,
+      "prominence": 0.373167071201071,
+      "right_score": 0.7114322444388329,
+      "left_score": 0.008744060053717778,
+      "swapped_angle": 243,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 164,
+      "energy": [
+        16378295,
+        0,
+        13165131,
+        12753195,
+        21145765,
+        16367369
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.6110626477812722,
+      "prominence": 0.27244907259085543,
+      "right_score": 0.6110626477812722,
+      "left_score": 0.05867404329560845,
+      "swapped_angle": 250,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 167,
+      "energy": [
+        13213483,
+        0,
+        15566859,
+        16333616,
+        17738895,
+        15769510
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.5981428341865429,
+      "prominence": 0.2672016683754581,
+      "right_score": 0.5981428341865429,
+      "left_score": 0.10643695048323043,
+      "swapped_angle": 249,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 169,
+      "energy": [
+        7633640,
+        0,
+        8214373,
+        6658004,
+        8592561,
+        9125822
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.3975712219646014,
+      "prominence": 0.17591945886654747,
+      "right_score": 0.3975712219646014,
+      "left_score": 0.032790799109295006,
+      "swapped_angle": 249,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 171,
+      "energy": [
+        11874297,
+        0,
+        13551494,
+        10979602,
+        14408824,
+        11996034
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.5219554188379515,
+      "prominence": 0.28969400456689826,
+      "right_score": 0.5219554188379515,
+      "left_score": 0.020920089070498835,
+      "swapped_angle": 243,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 174,
+      "energy": [
+        12986484,
+        0,
+        13818637,
+        9874846,
+        11068017,
+        12325872
+      ],
+      "angle": 90,
+      "valid": true,
+      "peak": 0.558807189917587,
+      "prominence": 0.29434306737475535,
+      "right_score": 0.558807189917587,
+      "left_score": -0.04669543858038153,
+      "swapped_angle": 239,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 176,
+      "energy": [
+        18307303,
+        0,
+        23423716,
+        16537658,
+        18831554,
+        23646031
+      ],
+      "angle": 97,
+      "valid": true,
+      "peak": 0.6625071442191326,
+      "prominence": 0.39533941744389234,
+      "right_score": 0.6496085948440119,
+      "left_score": -0.014060742407199064,
+      "swapped_angle": 237,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 178,
+      "energy": [
+        12353054,
+        0,
+        12005305,
+        11734230,
+        14167800,
+        11785276
+      ],
+      "angle": 97,
+      "valid": true,
+      "peak": 0.5680859152202572,
+      "prominence": 0.36215084400199443,
+      "right_score": 0.5577580863616538,
+      "left_score": 0.12356924772158584,
+      "swapped_angle": 237,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 181,
+      "energy": [
+        9295274,
+        0,
+        9516781,
+        9384864,
+        9957758,
+        10126988
+      ],
+      "angle": 98,
+      "valid": true,
+      "peak": 0.4300880295827182,
+      "prominence": 0.22254917505664482,
+      "right_score": 0.4041849360666651,
+      "left_score": -0.012687954821973785,
+      "swapped_angle": 243,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 183,
+      "energy": [
+        6599198,
+        0,
+        6793948,
+        6412346,
+        6129259,
+        6877029
+      ],
+      "angle": 97,
+      "valid": true,
+      "peak": 0.28153787726357876,
+      "prominence": 0.1165353218307679,
+      "right_score": 0.27551249971304614,
+      "left_score": 0.015426643098184136,
+      "swapped_angle": 249,
+      "swapped_valid": true,
+      "dropped": 0
+    },
+    {
+      "sequence": 186,
+      "energy": [
+        5283869,
+        0,
+        4603134,
+        4964955,
+        5351348,
+        4634331
+      ],
+      "angle": 90,
+      "valid": false,
+      "peak": 0.09152912008447925,
+      "prominence": 0.03155510378786814,
+      "right_score": 0.09152912008447925,
+      "left_score": 0.007123344275843049,
+      "swapped_angle": 224,
+      "swapped_valid": false,
+      "dropped": 0
+    },
+    {
+      "sequence": 188,
+      "energy": [
+        6639719,
+        0,
+        5238894,
+        5894264,
+        5903999,
+        5935297
+      ],
+      "angle": 98,
+      "valid": true,
+      "peak": 0.22477495538613362,
+      "prominence": 0.14436016056134757,
+      "right_score": 0.20452698514726478,
+      "left_score": 0.021714377539542223,
+      "swapped_angle": 224,
+      "swapped_valid": false,
+      "dropped": 0
+    }
+  ]
+}
